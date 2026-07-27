@@ -1,378 +1,865 @@
 texto_query,nome_tool,tipo_tool,funcao_tool,dificuldade_query
-Preciso agendar uma reunião com o time de marketing para discutir o novo projeto.,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Como posso encontrar um horário que funcione para todos os participantes da reunião?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Quais são os horários disponíveis para a reunião da semana que vem?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Preciso remarcar a reunião de hoje para amanhã.,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Como faço para agendar uma reunião com pessoas de diferentes fusos horários?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Quais são os melhores horários para agendar reuniões com os clientes?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Preciso agendar uma reunião com o CEO para discutir o relatório financeiro.,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Como posso evitar conflitos de horários com outras reuniões?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Quais são os horários mais produtivos para agendar reuniões?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Preciso agendar uma reunião com um grupo grande de pessoas.,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Como faço para agendar uma reunião com alguém que está em férias?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Quais são os melhores dias da semana para agendar reuniões?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
-Preciso agendar uma reunião com um cliente que está em um fuso horário diferente.,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Quais são os melhores horários para uma reunião com os funcionários?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Posso agendar uma reunião com 5 pessoas para amanhã?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Qual é o melhor dia e hora para uma reunião com o cliente?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Quais são as melhores opções de horário para uma reunião com a equipe de vendas?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Como posso agendar uma reunião com o gerente de marketing?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Quais são os horários mais convenientes para uma reunião com a equipe de desenvolvimento?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Posso agendar uma reunião com 10 pessoas para esta semana?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Qual é o melhor dia para uma reunião com o CEO?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Quais são as opções de horário para uma reunião com a equipe de suporte?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Como posso agendar uma reunião com o departamento de RH?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Quais são os melhores horários para uma reunião com a equipe de finanças?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Posso agendar uma reunião com 3 pessoas para hoje?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Quais são as opções de horário para uma reunião com o cliente estrangeiro?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
 Qual é o preço atual da ação da Apple?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Preciso saber o valor da ação daMicrosoft.,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Quais são os preços atuais das ações da bolsa de valores?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Qual é o preço da ação da Google?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Preciso verificar o preço da ação da Amazon.,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Quais são as ações mais negociadas no mercado?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto vale a ação da Microsoft?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o valor atual da ação da Amazon?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto custa a ação da Google?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
 Qual é o preço atual da ação da Facebook?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Preciso saber o preço da ação da Tesla.,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Quais são as ações com maior valor de mercado?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Qual é o preço da ação da Netflix?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Preciso verificar o preço da ação da Coca-Cola.,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Quais são as ações mais lucrativas do ano?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Qual é o preço atual da ação da Samsung?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
-Preciso enviar um e-mail para o meu gerente sobre o projeto.,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Como posso enviar um e-mail para um grupo de pessoas?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Quais são os melhores assuntos para incluir em um e-mail?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Preciso enviar um e-mail para um cliente sobre a entrega do produto.,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Como faço para incluir anexos em um e-mail?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Quais são as melhores palavras-chave para incluir no assunto de um e-mail?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Preciso enviar um e-mail para o time de suporte sobre um problema técnico.,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Como posso personalizar um e-mail para um destinatário específico?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Quais são as regras para incluir links em um e-mail?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Preciso enviar um e-mail para um grupo de amigos sobre um evento.,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Como faço para incluir uma imagem em um e-mail?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Quais são as melhores práticas para escrever um e-mail de negócios?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Preciso enviar um e-mail para um cliente sobre a devolução de um produto.,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
-Onde está o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Quando chegará o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Como posso rastrear o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Qual é o status do meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Quando foi enviado o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Como posso saber se o meu pacote foi entregue?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-O que significa o status 'em trânsito'?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Como posso saber se o meu pacote foi perdido?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Quais são os prazos de entrega para o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Como posso rastrear o meu pacote internacional?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Quais são as opções de entrega para o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Como posso saber se o meu pacote foi assinado?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-O que devo fazer se o meu pacote não chegou?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
-Preciso criar uma lista de tarefas para o dia de hoje.,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Como posso organizar minhas tarefas pelo prazo de entrega?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Quais são as tarefas mais importantes que devo realizar primeiro?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Preciso criar uma lista de tarefas para o projeto.,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Como posso adicionar lembretes às minhas tarefas?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Quais são as tarefas que posso delegar para os outros?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Preciso criar uma lista de tarefas para a semana.,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Como posso priorizar minhas tarefas?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Quais são as tarefas que posso realizar em paralelo?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Preciso criar uma lista de tarefas para o mês.,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Como posso compartilhar minhas tarefas com os outros?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Quais são as tarefas que posso realizar em qualquer lugar?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Preciso criar uma lista de tarefas para o ano.,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
-Qual é a previsão do tempo para hoje?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Quais são as condições climáticas atuais?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Preciso saber a previsão do tempo para a semana.,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Qual é a temperatura atual?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Quais são as chances de chuva para hoje?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Preciso saber a previsão do tempo para o fim de semana.,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Quais são as condições climáticas para a próxima semana?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Preciso saber a previsão do tempo para o mês.,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Quais são as temperaturas mínimas e máximas para a semana?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Preciso saber a previsão do tempo para o ano.,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Quais são as condições climáticas para a estação atual?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Preciso saber a previsão do tempo para a região.,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Quais são as chances de neve para a próxima semana?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
-Preciso reservar um voo para a próxima semana.,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Quais são os voos mais baratos para o destino?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Como posso encontrar os melhores voos para o meu orçamento?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Preciso reservar um voo para o mês que vem.,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Quais são as opções de voos para o destino?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Como posso comparar os preços dos voos?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Preciso reservar um voo para o ano que vem.,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Quais são as condições climáticas no destino?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Como posso saber se o voo está disponível?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Preciso reservar um voo para um grupo de pessoas.,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Quais são as opções de voos para o destino com escalas?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Como posso saber se o voo tem Wi-Fi?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Preciso reservar um voo para um destino internacional.,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
-Preciso criar uma senha segura para a minha conta.,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Quais são as melhores práticas para criar senhas fortes?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Como posso criar uma senha que seja fácil de lembrar?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Preciso criar uma senha para o meu e-mail.,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Quais são as opções para criar senhas aleatórias?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Como posso criar uma senha que seja difícil de adivinhar?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Preciso criar uma senha para o meu banco online.,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Quais são as opções para criar senhas com letras e números?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Como posso criar uma senha que seja fácil de digitar?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Preciso criar uma senha para o meu site.,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Quais são as opções para criar senhas com símbolos?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Como posso criar uma senha que seja fácil de lembrar e segura?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Preciso criar uma senha para o meu aplicativo de banco.,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
-Preciso lembrar de tomar o meu remédio todas as manhãs.,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Quais são as opções para lembrar de tomar medicamentos?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Como posso criar um lembrete para tomar o meu remédio?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Preciso lembrar de tomar o meu remédio todas as noites.,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Quais são as opções para lembrar de tomar medicamentos com frequência?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Como posso saber se eu já tomei o meu remédio?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Preciso lembrar de tomar o meu remédio em um horário específico.,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Quais são as opções para lembrar de tomar medicamentos com doses específicas?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Como posso lembrar de tomar o meu remédio quando estou viajando?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Preciso lembrar de tomar o meu remédio durante um período de tempo específico.,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Quais são as opções para lembrar de tomar medicamentos com interações?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Como posso saber se eu esqueci de tomar o meu remédio?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Preciso lembrar de tomar o meu remédio para uma condição médica específica.,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
-Preciso ligar a luz da sala de estar.,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Quais são as opções para controlar os dispositivos da casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Como posso criar um cenário para a minha casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Preciso desligar a luz da cozinha.,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Quais são as opções para controlar a temperatura da casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Como posso saber se a porta da frente está trancada?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Preciso ligar a TV da sala de estar.,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Quais são as opções para controlar os dispositivos da casa com voz?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Como posso saber se a casa está segura?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Preciso desligar a luz do quarto.,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Quais são as opções para controlar os dispositivos da casa com aplicativos?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Como posso criar um cronograma para os dispositivos da casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Preciso ligar a café da manhã.,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
-Preciso analisar os dados de vendas do mês passado.,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Quais são as tendências nos dados de tráfego do site?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Como posso criar um relatório de dados para o meu gerente?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Preciso analisar os dados de engajamento do meu perfil de mídia social.,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Quais são as opções para criar gráficos e tabelas com os dados?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Como posso saber se os dados estão aumentando ou diminuindo?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Preciso analisar os dados de crescimento do meu negócio.,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Quais são as opções para criar alertas com base nos dados?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Como posso saber se os dados estão dentro da faixa normal?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Preciso analisar os dados de satisfação do cliente.,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Quais são as opções para criar previsões com base nos dados?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Como posso saber se os dados estão relacionados a outros fatores?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Preciso analisar os dados de desempenho do meu time.,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
-Quais são as condições de trânsito atuais?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Preciso saber se há congestionamentos na rodovia.,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Como posso saber se há acidentes na estrada?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Quais são as opções para evitar o trânsito pesado?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Preciso saber se há obras na rodovia。,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Quais são as condições de trânsito para o meu destino?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Como posso saber se há manifestações ou protestos na área?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Preciso saber se há fechamentos de ruas ou avenidas.,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Quais são as opções para encontrar uma rota alternativa?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Como posso saber se há condições climáticas adversas na estrada?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Preciso saber se há limitações de velocidade na rodovia.,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Quais são as opções para saber se há problemas com a infraestrutura da estrada?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Como posso saber se há alertas de segurança na área?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
-Preciso criar um ticket de suporte para o meu problema de software.,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Quais são as opções para criar um ticket de suporte?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Como posso criar um ticket de suporte para o meu problema técnico?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Preciso criar um ticket de suporte para o meu problema de rede.,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Quais são as opções para criar um ticket de suporte com prioridade?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Como posso saber se o meu ticket de suporte foi recebido?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Preciso criar um ticket de suporte para o meu problema de hardware.,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Quais são as opções para criar um ticket de suporte com anexos?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Como posso saber se o meu ticket de suporte está sendo processado?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Preciso criar um ticket de suporte para o meu problema de segurança.,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Quais são as opções para criar um ticket de suporte com rastreio?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Como posso saber se o meu ticket de suporte foi resolvido?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Preciso criar um ticket de suporte para o meu problema de compatibilidade.,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
-Quais são as manchetes de notícias do dia?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Preciso saber as últimas notícias do mundo.,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Como posso saber as notícias mais importantes do giorno?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Quais são as opções para ler notícias por categoria?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Preciso saber as notícias de negócios do dia.,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Quais são as opções para ler notícias por região?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Como posso saber as notícias de esportes do dia?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Preciso saber as notícias de política do dia.,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Quais são as opções para ler notícias por linguagem?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Como posso saber as notícias de entretenimento do dia?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Preciso saber as notícias de tecnologia do dia.,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Quais são as opções para ler notícias por fonte?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Como posso saber as notícias de ciência do dia?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
-Preciso enviar uma mensagem de texto para o meu amigo.,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Quais são as opções para enviar mensagens de texto?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Como posso criar uma mensagem de texto com um link?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Preciso enviar uma mensagem de texto para um grupo de pessoas.,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Quais são as opções para enviar mensagens de texto com anexos?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Como posso saber se a mensagem de texto foi entregue?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Preciso enviar uma mensagem de texto para um número internacional.,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Quais são as opções para enviar mensagens de texto com voz?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Como posso saber se a mensagem de texto foi lida?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Preciso enviar uma mensagem de texto para um contato específico.,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Quais são as opções para enviar mensagens de texto com fotos?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Como posso saber se a mensagem de texto foi enviada com sucesso?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Preciso enviar uma mensagem de texto para um grupo de contatos.,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
-Quais são os produtos mais populares na loja?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Preciso saber quais são os produtos mais vendidos na categoria.,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Como posso saber quais são os produtos mais adequados para o meu perfil?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Quais são as opções para saber quais são os produtos mais baratos?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Preciso saber quais são os produtos mais lucrativos da loja.,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Quais são as opções para saber quais são os produtos mais em estoque?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Como posso saber quais são os produtos mais adequados para a minha necessidade?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Preciso saber quais são os produtos mais novos da loja.,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Quais são as opções para saber quais são os produtos mais antigos da loja?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Como posso saber quais são os produtos mais em promoção?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Preciso saber quais são os produtos mais comprados juntos.,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Quais são as opções para saber quais são os produtos mais avaliados?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Como posso saber quais são os produtos mais recomendados para mim?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
-Preciso rastrear o meu progresso de treino.,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Quais são as opções para rastrear o meu progresso de treino?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Como posso criar um plano de treino personalizado?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Preciso saber como está o meu progresso de treino em relação às minhas metas.,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Quais são as opções para rastrear o meu progresso de treino com um dispositivo?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Como posso saber se estou fazendo progresso no meu treino?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Preciso saber como está o meu progresso de treino em relação ao meu histórico.,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Quais são as opções para rastrear o meu progresso de treino com um aplicativo?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Como posso saber se estou fazendo o suficiente para alcançar as minhas metas?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Preciso saber como está o meu progresso de treino em relação ao meu objetivo.,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Quais são as opções para rastrear o meu progresso de treino com um treinador?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Como posso saber se estou fazendo progresso no meu treino em relação à minha saúde?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Preciso saber como está o meu progresso de treino em relação ao meu desempenho.,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
-Quais são os eventos do calendário para o mês?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Preciso saber os eventos do calendário para a semana.,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Como posso criar um evento no calendário?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Quais são as opções para compartilhar o calendário com os outros?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Preciso saber os eventos do calendário para o dia.,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Quais são as opções para criar um lembrete para um evento?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Como posso saber se há conflitos de horários nos eventos?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Preciso saber os eventos do calendário para o ano.,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Quais são as opções para criar um evento recorrente?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Como posso saber se os eventos estão atualizados?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Preciso saber os eventos do calendário para um período de tempo específico.,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Quais são as opções para criar um evento com convidados?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Como posso saber se os eventos estão sincronizados com outros dispositivos?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
-Preciso enviar um fax para um número específico.,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Quais são as opções para enviar faxes?,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Como posso criar um fax com um documento?,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Preciso enviar um fax para um número internacional.,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Quais são as opções para enviar faxes com anexos?,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Como posso saber se o fax foi entregue?,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Preciso enviar um fax para um contato específico.,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Quais são as opções para enviar faxes com voz?,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Como posso saber se o fax foi lido?,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Preciso enviar um fax para um grupo de contatos.,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Quais são as opções para enviar faxes com fotos?,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Como posso saber se o fax foi enviado com sucesso?,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Preciso enviar um fax para um número de fax específico.,send_fax,comunicacao,Envia um fax para um número específico.,facil
-Quais são as avaliações dos produtos mais populares?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Preciso saber as avaliações dos produtos mais vendidos.,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Como posso saber as avaliações dos produtos mais adequados para o meu perfil?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Quais são as opções para saber as avaliações dos produtos mais baratos?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Preciso saber as avaliações dos produtos mais lucrativos da loja.,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Quais são as opções para saber as avaliações dos produtos mais em estoque?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Como posso saber as avaliações dos produtos mais adequados para a minha necessidade?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Preciso saber as avaliações dos produtos mais novos da loja.,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Quais são as opções para saber as avaliações dos produtos mais antigos da loja?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Como posso saber as avaliações dos produtos mais em promoção?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Preciso saber as avaliações dos produtos mais comprados juntos.,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Quais são as opções para saber as avaliações dos produtos mais avaliados?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Como posso saber as avaliações dos produtos mais recomendados para mim?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
-Preciso rastrear o meu padrão de sono.,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Quais são as opções para rastrear o meu padrão de sono?,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Como posso criar um relatório de sono?,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Preciso saber como está o meu padrão de sono em relação às minhas metas.,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Quais são as opções para rastrear o meu padrão de sono com um dispositivo?,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Como posso saber se estou dormindo o suficiente?,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Preciso saber como está o meu padrão de sono em relação ao meu histórico.,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Quais são as opções para rastrear o meu padrão de sono com um aplicativo?,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Como posso saber se estou tendo problemas de sono?,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Preciso saber como está o meu padrão de sono em relação ao meu objetivo.,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Quais são as opções para rastrear o meu padrão de sono com um treinador?,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Como posso saber se estou fazendo progresso no meu padrão de sono?,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Preciso saber como está o meu padrão de sono em relação ao meu desempenho.,track_sleep_pattern,saude,Registra padrões de sono.,facil
-Preciso controlar a segurança da minha casa.,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Quais são as opções para controlar a segurança da casa?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Como posso criar um sistema de segurança para a minha casa?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Preciso saber como está a segurança da minha casa em relação às minhas metas.,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Quais são as opções para controlar a segurança da casa com um dispositivo?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Como posso saber se a segurança da casa está ativada?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Preciso saber como está a segurança da casa em relação ao meu histórico.,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Quais são as opções para controlar a segurança da casa com um aplicativo?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Como posso saber se a segurança da casa está desativada?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Preciso saber como está a segurança da casa em relação ao meu objetivo.,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Quais são as opções para controlar a segurança da casa com um treinador?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Como posso saber se a segurança da casa está funcionando corretamente?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Preciso saber como está a segurança da casa em relação ao meu desempenho.,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
-Quais são os alertas de trânsito para o meu destino?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Preciso saber os alertas de trânsito para a minha rota.,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Como posso criar um plano de viagem com alertas de trânsito?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Quais são as opções para saber os alertas de trânsito em tempo real?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Preciso saber os alertas de trânsito para a minha área.,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Quais são as opções para receber alertas de trânsito por e-mail?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Como posso saber se há alertas de trânsito para a minha rota?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Preciso saber os alertas de trânsito para o meu período de viagem.,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Quais são as opções para saber os alertas de trânsito com antecedência?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Como posso saber se os alertas de trânsito estão atualizados?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Preciso saber os alertas de trânsito para a minha rota de volta.,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Quais são as opções para saber os alertas de trânsito com detalhes?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Como posso saber se os alertas de trânsito estão disponíveis para a minha área?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
-Quais são os alertas meteorológicos para a minha área?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Preciso saber os alertas meteorológicos para o meu destino.,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Como posso criar um plano de viagem com alertas meteorológicos?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Quais são as opções para saber os alertas meteorológicos em tempo real?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Preciso saber os alertas meteorológicos para a minha rota.,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Quais são as opções para receber alertas meteorológicos por e-mail?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Como posso saber se há alertas meteorológicos para a minha área?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Preciso saber os alertas meteorológicos para o meu período de viagem.,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Quais são as opções para saber os alertas meteorológicos com antecedência?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Como posso saber se os alertas meteorológicos estão atualizados?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Preciso saber os alertas meteorológicos para a minha rota de volta.,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Quais são as opções para saber os alertas meteorológicos com detalhes?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Como posso saber se os alertas meteorológicos estão disponíveis para a minha área?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
-Preciso criar um portfólio de investimentos.,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Quais são as opções para criar um portfólio de investimentos?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Como posso criar um plano de investimento personalizado?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Preciso saber como está o meu portfólio de investimentos em relação às minhas metas.,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Quais são as opções para criar um portfólio de investimentos com ações?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Como posso saber se o meu portfólio de investimentos está diversificado?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Preciso saber como está o meu portfólio de investimentos em relação ao meu histórico.,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Quais são as opções para criar um portfólio de investimentos com títulos?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Como posso saber se o meu portfólio de investimentos está rentável?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Preciso saber como está o meu portfólio de investimentos em relação ao meu objetivo.,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Quais são as opções para criar um portfólio de investimentos com fundos?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Como posso saber se o meu portfólio de investimentos está seguro?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Preciso saber como está o meu portfólio de investimentos em relação ao meu desempenho.,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
-Quais são os status dos voos para o meu destino?,get_flight_status,viagens,Retorna o status de um voo.,facil
-Preciso saber o status do voo para a minha rota.,get_flight_status,viagens,Retorna o status de um voo.,facil
-Como posso criar um plano de viagem com status de voos?,get_flight_status,viagens,Retorna o status de um voo.,facil
-Quais são as opções para saber os status de voos em tempo real?,get_flight_status,viagens,Retorna o status de um voo.,facil
-Preciso saber o status do voo para a minha área.,get_flight_status,viagens,Retorna o status de um voo.,facil
-Quais são as opções para receber status de voos por e-mail?,get_flight_status,viagens,Retorna o status de um voo.,facil
-Como posso saber se há status de voos para a minha rota?,get_flight_status,viagens,Retorna o status de um voo.,facil
-Preciso saber o status do voo para o meu período de viagem.,get_flight_status,viagens,Retorna o status de um voo.,facil
-Quais são as opções para saber os status de voos com antecedência?,get_flight_status,viagens,Retorna o status de um voo.,facil
-Como posso saber se os status de voos estão atualizados?,get_flight_status,viagens,Retorna o status de um voo.,facil
-Preciso saber o status do voo para a minha rota de volta.,get_flight_status,viagens,Retorna o status de um voo.,facil
-Quais são as opções para saber os status de voos com detalhes?,get_flight_status,viagens,Retorna o status de um voo.,facil
-Como posso saber se os status de voos estão disponíveis para a minha área?,get_flight_status,viagens,Retorna o status de um voo.,facil
-Preciso rastrear as minhas consultas médicas.,track_medical_appointments,saude,Registra consultas médicas.,facil
-Quais são as opções para rastrear as consultas médicas?,track_medical_appointments,saude,Registra consultas médicas.,facil
-Como posso criar um plano de tratamento personalizado?,track_medical_appointments,saude,Registra consultas médicas.,facil
-Preciso saber como estão as minhas consultas médicas em relação às minhas metas.,track_medical_appointments,saude,Registra consultas médicas.,facil
-Quais são as opções para rastrear as consultas médicas com um dispositivo?,track_medical_appointments,saude,Registra consultas médicas.,facil
-Como posso saber se estou fazendo progresso nas minhas consultas médicas?,track_medical_appointments,saude,Registra consultas médicas.,facil
-Preciso saber como estão as minhas consultas médicas em relação ao meu histórico.,track_medical_appointments,saude,Registra consultas médicas.,facil
-Quais são as opções para rastrear as consultas médicas com um aplicativo?,track_medical_appointments,saude,Registra consultas médicas.,facil
-Como posso saber se estou fazendo o suficiente para alcançar as minhas metas de saúde?,track_medical_appointments,saude,Registra consultas médicas.,facil
-Preciso saber como estão as minhas consultas médicas em relação ao meu objetivo.,track_medical_appointments,saude,Registra consultas médicas.,facil
-Quais são as opções para rastrear as consultas médicas com um treinador?,track_medical_appointments,saude,Registra consultas médicas.,facil
-Como posso saber se estou fazendo progresso nas minhas consultas médicas em relação à minha saúde?,track_medical_appointments,saude,Registra consultas médicas.,facil
-Preciso saber como estão as minhas consultas médicas em relação ao meu desempenho.,track_medical_appointments,saude,Registra consultas médicas.,facil
-Preciso controlar a automação da minha casa.,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Quais são as opções para controlar a automação da casa?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Como posso criar um sistema de automação para a minha casa?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Preciso saber como está a automação da minha casa em relação às minhas metas.,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Quais são as opções para controlar a automação da casa com um dispositivo?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Como posso saber se a automação da casa está ativada?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Preciso saber como está a automação da minha casa em relação ao meu histórico.,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Quais são as opções para controlar a automação da casa com um aplicativo?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Como posso saber se a automação da casa está desativada?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Preciso saber como está a automação da minha casa em relação ao meu objetivo.,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Quais são as opções para controlar a automação da casa com um treinador?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Como posso saber se a automação da casa está funcionando corretamente?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Preciso saber como está a automação da minha casa em relação ao meu desempenho.,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
-Quais são as análises dos dados para o meu negócio?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Preciso saber as análises dos dados para a minha área.,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Como posso criar um relatório de análise de dados?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Quais são as opções para saber as análises dos dados em tempo real?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Preciso saber as análises dos dados para a minha rota.,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Quais são as opções para receber análises de dados por e-mail?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Como posso saber se há análises de dados para a minha rota?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Preciso saber as análises dos dados para o meu período de viagem.,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Quais são as opções para saber as análises dos dados com antecedência?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Como posso saber se as análises de dados estão atualizadas?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Preciso saber as análises dos dados para a minha rota de volta.,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Quais são as opções para saber as análises dos dados com detalhes?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
-Como posso saber se as análises de dados estão disponíveis para a minha área?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Quanto vale a ação da Tesla?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o valor atual da ação da Netflix?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto custa a ação da Coca-Cola?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o preço atual da ação da Intel?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto vale a ação da Visa?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o valor atual da ação da Mastercard?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto custa a ação da IBM?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o preço atual da ação da Cisco?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual será o clima em São Paulo amanhã?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quais são as chances de chuva em Rio de Janeiro esta semana?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Nova York?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quanto vai fazer em Los Angeles hoje?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Paris?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quais são as chances de neve em Londres esta semana?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Tóquio?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quanto vai fazer em Sydney hoje?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Buenos Aires?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quais são as chances de chuva em Madrid esta semana?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Berlim?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quanto vai fazer em Roma hoje?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Pequim?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Como posso enviar um e-mail para o meu gerente?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+"Quero enviar um e-mail para o meu cliente, como faço?",send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Posso enviar um e-mail em massa para todos os funcionários?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Como posso adicionar um anexo a um e-mail?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+"Quero enviar um e-mail para o meu amigo, como faço?",send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Posso enviar um e-mail com uma imagem?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Como posso criar uma lista de e-mails para enviar newsletters?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+"Quero enviar um e-mail para o meu professor, como faço?",send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Posso enviar um e-mail com um link para um site?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Como posso personalizar o assunto de um e-mail?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+"Quero enviar um e-mail para o meu colega de trabalho, como faço?",send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Posso enviar um e-mail com um arquivo zip?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Como posso agendar o envio de um e-mail para mais tarde?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Como posso registrar minhas despesas de viagem?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+"Quero acompanhar minhas despesas mensais, como faço?",track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Posso registrar minhas despesas de comida em um restaurante?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Como posso categorizar minhas despesas de modo eficaz?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+"Quero acompanhar minhas despesas de entretenimento, como faço?",track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Posso registrar minhas despesas de transporte?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Como posso criar um orçamento para minhas despesas?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+"Quero acompanhar minhas despesas de hospedagem, como faço?",track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Posso registrar minhas despesas de compras online?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Como posso visualizar minhas despesas em um gráfico?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+"Quero acompanhar minhas despesas de saúde, como faço?",track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Posso registrar minhas despesas de educação?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Como posso receber notificações sobre minhas despesas?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Como posso criar uma tarefa para o meu time de trabalho?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+"Quero criar uma tarefa para o meu colega de trabalho, como faço?",create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Posso criar uma tarefa com prazo de entrega?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Como posso priorizar minhas tarefas?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+"Quero criar uma tarefa para o meu projeto pessoal, como faço?",create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Posso criar uma tarefa com dependências?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Como posso criar uma lista de tarefas para o dia?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+"Quero criar uma tarefa para o meu gerente, como faço?",create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Posso criar uma tarefa com anexos?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Como posso criar uma tarefa recorrente?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+"Quero criar uma tarefa para o meu time de marketing, como faço?",create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Posso criar uma tarefa com um limite de tempo?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Como posso visualizar minhas tarefas em um calendário?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Como posso reservar um voo para São Paulo?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+"Quero reservar um voo para o Rio de Janeiro, como faço?",book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Posso reservar um voo para Nova York?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Como posso encontrar voos baratos para Los Angeles?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+"Quero reservar um voo para Paris, como faço?",book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Posso reservar um voo para Tóquio?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Como posso comparar preços de voos?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+"Quero reservar um voo para Sydney, como faço?",book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Posso reservar um voo para Buenos Aires?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Como posso reservar um voo com mais de uma escala?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+"Quero reservar um voo para Madrid, como faço?",book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Posso reservar um voo para Berlim?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Como posso visualizar meu itinerário de viagem?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Como posso acompanhar o status do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+"Quero cancelar meu pedido, como faço?",manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Posso alterar o endereço de entrega do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Como posso solicitar um reembolso para o meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+"Quero adicionar um item ao meu pedido, como faço?",manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Posso remover um item do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Como posso visualizar o histórico de pedidos?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+"Quero solicitar uma troca de produto, como faço?",manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Posso alterar o método de pagamento do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Como posso receber notificações sobre o status do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+"Quero solicitar um desconto para o meu pedido, como faço?",manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Posso adicionar um cupom de desconto ao meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Como posso visualizar o total do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Como posso ligar a luz da sala?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+"Quero desligar o ar-condicionado, como faço?",control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Posso ajustar a temperatura do termostato?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Como posso abrir a cortina da janela?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+"Quero fechar a porta da garagem, como faço?",control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Posso ligar a TV?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Como posso ajustar o volume do som?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+"Quero desligar a cafeteira, como faço?",control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Posso ligar a máquina de lavar louça?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Como posso visualizar o status dos dispositivos da casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+"Quero receber notificações sobre a segurança da casa, como faço?",control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Posso controlar os dispositivos da casa remotamente?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Como posso criar uma cena para a iluminação da casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Como posso criar um gráfico de barras para os meus dados?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+"Quero realizar uma análise de regressão linear, como faço?",analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Posso criar um gráfico de pizza para os meus dados?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Como posso realizar uma análise de clusterização?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+"Quero criar um gráfico de linha para os meus dados, como faço?",analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Posso realizar uma análise de correlação?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Como posso criar um gráfico de dispersão para os meus dados?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+"Quero realizar uma análise de tendência, como faço?",analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Posso criar um gráfico de área para os meus dados?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Como posso realizar uma análise de frequência?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+"Quero criar um gráfico de radar para os meus dados, como faço?",analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Posso realizar uma análise de segmentação?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Como posso visualizar os meus dados em um mapa?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Como posso receber um lembrete para tomar o meu medicamento?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+"Quero agendar um lembrete para tomar a minha pílula, como faço?",get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Posso receber um lembrete para ir ao médico?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Como posso criar um cronograma para os meus medicamentos?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+"Quero receber um lembrete para tomar o meu medicamento em uma determinada hora, como faço?",get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Posso criar um lembrete para tomar a minha vitamina?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Como posso visualizar o histórico dos meus medicamentos?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+"Quero receber um lembrete para renovar a minha prescrição, como faço?",get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Posso criar um lembrete para ir ao farmacêutico?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Como posso receber notificações sobre os meus medicamentos?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+"Quero criar um lembrete para tomar o meu medicamento em uma determinada data, como faço?",get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Posso criar um lembrete para tomar a minha vacina?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Como posso visualizar as instruções dos meus medicamentos?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Como posso criar um novo projeto de desenvolvimento de software?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+"Quero criar um projeto em Java, como faço?",create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Posso criar um projeto em Python?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Como posso criar um projeto em JavaScript?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+"Quero criar um projeto em PHP, como faço?",create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Posso criar um projeto em Ruby?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Como posso criar um projeto em C++?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+"Quero criar um projeto em Swift, como faço?",create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Posso criar um projeto em Kotlin?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Como posso criar um projeto em Go?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+"Quero criar um projeto em Rust, como faço?",create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Posso criar um projeto em TypeScript?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Como posso visualizar o progresso do meu projeto?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Como posso acompanhar a atividade do usuário no meu site?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+"Quero visualizar o histórico de atividades do usuário, como faço?",track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Posso receber notificações sobre as atividades do usuário?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Como posso criar um relatório de atividades do usuário?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+"Quero visualizar o tempo gasto pelo usuário em cada página, como faço?",track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Posso acompanhar a atividade do usuário em tempo real?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Como posso criar um gráfico de atividades do usuário?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+"Quero visualizar a atividade do usuário por dispositivo, como faço?",track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Posso criar um relatório de atividades do usuário por data?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Como posso receber notificações sobre as atividades do usuário em um determinado período?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+"Quero visualizar a atividade do usuário por hora do dia, como faço?",track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Posso criar um relatório de atividades do usuário por localização?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Como posso visualizar a atividade do usuário em um mapa?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Como posso realizar um pagamento com o meu cartão de crédito?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+"Quero realizar um pagamento com o meu cartão de débito, como faço?",make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Posso realizar um pagamento com o PayPal?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Como posso realizar um pagamento com o meu banco?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+"Quero realizar um pagamento com o meu telefone, como faço?",make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Posso realizar um pagamento com o meu smartwatch?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Como posso realizar um pagamento com o meu computador?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+"Quero realizar um pagamento com o meu tablet, como faço?",make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Posso realizar um pagamento com o meu console de jogos?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Como posso visualizar o histórico de pagamentos?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+"Quero receber notificações sobre os meus pagamentos, como faço?",make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Posso criar um lembrete para realizar um pagamento?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Como posso visualizar o saldo do meu conta?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Como posso verificar as tendências climáticas em São Paulo?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+"Quero verificar as tendências climáticas em Nova York, como faço?",check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Posso verificar as tendências climáticas em Tóquio?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Como posso verificar as tendências climáticas em Los Angeles?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+"Quero verificar as tendências climáticas em Paris, como faço?",check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Posso verificar as tendências climáticas em Londres?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Como posso verificar as tendências climáticas em Sydney?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+"Quero verificar as tendências climáticas em Buenos Aires, como faço?",check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Posso verificar as tendências climáticas em Madrid?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Como posso verificar as tendências climáticas em Berlim?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+"Quero verificar as tendências climáticas em Pequim, como faço?",check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Posso verificar as tendências climáticas em Moscou?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Como posso visualizar as tendências climáticas em um mapa?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Como posso enviar uma notificação para o meu time de trabalho?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+"Quero enviar uma notificação para o meu gerente, como faço?",send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Posso enviar uma notificação para o meu cliente?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Como posso enviar uma notificação para o meu amigo?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+"Quero enviar uma notificação para o meu colega de trabalho, como faço?",send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Posso enviar uma notificação para o meu professor?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Como posso enviar uma notificação para o meu aluno?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+"Quero enviar uma notificação para o meu parceiro de negócios, como faço?",send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Posso enviar uma notificação para o meu fornecedor?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Como posso criar um modelo de notificação?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+"Quero enviar uma notificação com um anexo, como faço?",send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Posso enviar uma notificação com um link?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Como posso visualizar o histórico de notificações?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Como posso analisar os dados dos meus clientes?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+"Quero criar um relatório de análise de clientes, como faço?",analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Posso criar um gráfico de análise de clientes?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Como posso criar um mapa de calor de análise de clientes?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+"Quero criar um relatório de análise de clientes por região, como faço?",analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Posso criar um relatório de análise de clientes por idade?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Como posso criar um relatório de análise de clientes por gênero?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+"Quero criar um relatório de análise de clientes por renda, como faço?",analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Posso criar um relatório de análise de clientes por educação?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Como posso criar um relatório de análise de clientes por ocupação?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+"Quero criar um relatório de análise de clientes por comportamento, como faço?",analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Posso criar um relatório de análise de clientes por preferência?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Como posso visualizar os dados dos meus clientes em um dashboard?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Como posso criar um plano de orçamento para a minha empresa?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+"Quero criar um plano de orçamento para o meu projeto, como faço?",create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Posso criar um plano de orçamento para o meu departamento?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Como posso criar um plano de orçamento para o meu time de trabalho?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+"Quero criar um plano de orçamento para o meu cliente, como faço?",create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Posso criar um plano de orçamento para o meu fornecedor?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Como posso criar um plano de orçamento para o meu parceiro de negócios?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+"Quero criar um plano de orçamento para o meu projeto de marketing, como faço?",create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Posso criar um plano de orçamento para o meu projeto de desenvolvimento de software?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Como posso criar um plano de orçamento para o meu projeto de infraestrutura?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+"Quero criar um plano de orçamento para o meu projeto de pesquisa, como faço?",create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Posso criar um plano de orçamento para o meu projeto de treinamento?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Como posso visualizar o plano de orçamento em um gráfico?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Como posso controlar o meu robô?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+"Quero fazer o meu robô se mover, como faço?",control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Posso fazer o meu robô realizar uma ação?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Como posso criar um programa para o meu robô?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+"Quero criar um robô que possa realizar tarefas, como faço?",control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Posso criar um robô que possa interagir com o ambiente?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Como posso criar um robô que possa aprender?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+"Quero criar um robô que possa realizar tarefas em equipe, como faço?",control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Posso criar um robô que possa realizar tarefas em um ambiente desconhecido?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Como posso criar um robô que possa realizar tarefas com precisão?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+"Quero criar um robô que possa realizar tarefas com eficiência, como faço?",control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Posso criar um robô que possa realizar tarefas com autonomia?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Como posso visualizar o status do meu robô?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Como posso acompanhar os meus indicadores de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+"Quero visualizar o meu histórico de saúde, como faço?",track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Posso receber notificações sobre os meus indicadores de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Como posso criar um gráfico de indicadores de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+"Quero criar um relatório de indicadores de saúde, como faço?",track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Posso criar um mapa de calor de indicadores de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Como posso criar um relatório de indicadores de saúde por data?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+"Quero criar um relatório de indicadores de saúde por categoria, como faço?",track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Posso criar um relatório de indicadores de saúde por objetivo?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Como posso criar um plano de ação para melhorar os meus indicadores de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+"Quero receber recomendações para melhorar os meus indicadores de saúde, como faço?",track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Posso criar um lembrete para realizar uma atividade de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Como posso visualizar os meus indicadores de saúde em um dashboard?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Como posso criar um relatório para o meu projeto?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+"Quero criar um relatório para o meu cliente, como faço?",generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Posso criar um relatório para o meu gerente?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Como posso criar um relatório para o meu time de trabalho?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+"Quero criar um relatório para o meu departamento, como faço?",generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Posso criar um relatório para o meu fornecedor?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Como posso criar um relatório para o meu parceiro de negócios?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+"Quero criar um relatório para o meu projeto de marketing, como faço?",generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Posso criar um relatório para o meu projeto de desenvolvimento de software?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Como posso criar um relatório para o meu projeto de infraestrutura?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+"Quero criar um relatório para o meu projeto de pesquisa, como faço?",generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Posso criar um relatório para o meu projeto de treinamento?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Como posso visualizar o relatório em um gráfico?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Como posso reservar um voo para São Paulo?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+"Quero reservar um hotel em Nova York, como faço?",make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Posso reservar um carro em Los Angeles?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Como posso reservar um pacote de viagem para Paris?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+"Quero reservar um cruzeiro para o Caribe, como faço?",make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Posso reservar um passeio em Tóquio?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Como posso reservar um tour em Sydney?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+"Quero reservar um aluguer de apartamento em Buenos Aires, como faço?",make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Posso reservar um resort em Miami?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Como posso reservar um bilhete de trem para Londres?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+"Quero reservar um passeio em Roma, como faço?",make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Posso reservar um almoço em um restaurante em Pequim?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Como posso visualizar as opções de viagem disponíveis?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Como posso acompanhar o status do meu pedido?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+"Quero visualizar o histórico de pedidos, como faço?",track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Posso receber notificações sobre o status do meu pedido?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Como posso criar um relatório de pedidos?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+"Quero criar um gráfico de pedidos, como faço?",track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Posso criar um mapa de calor de pedidos?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Como posso criar um relatório de pedidos por data?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+"Quero criar um relatório de pedidos por categoria, como faço?",track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Posso criar um relatório de pedidos por objetivo?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Como posso criar um plano de ação para melhorar os meus pedidos?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+"Quero receber recomendações para melhorar os meus pedidos, como faço?",track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Posso criar um lembrete para realizar uma ação de pedido?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Como posso visualizar os meus pedidos em um dashboard?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Como posso controlar a segurança da minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+"Quero criar um sistema de segurança para a minha casa, como faço?",control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Posso criar um sistema de vigilância para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Como posso criar um sistema de alerta para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+"Quero criar um sistema de controle de acesso para a minha casa, como faço?",control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Posso criar um sistema de detecção de intrusos para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Como posso criar um sistema de iluminação de segurança para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+"Quero criar um sistema de som de segurança para a minha casa, como faço?",control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Posso criar um sistema de detecção de fumaça para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Como posso criar um sistema de detecção de inundação para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+"Quero criar um sistema de backup de energia para a minha casa, como faço?",control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Posso criar um sistema de controle de temperatura para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Como posso visualizar o status da segurança da minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Como posso analisar as preferências dos meus clientes?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+"Quero criar um relatório de análise de preferências, como faço?",analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Posso criar um gráfico de análise de preferências?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Como posso criar um mapa de calor de análise de preferências?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+"Quero criar um relatório de análise de preferências por região, como faço?",analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Posso criar um relatório de análise de preferências por idade?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Como posso criar um relatório de análise de preferências por gênero?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+"Quero criar um relatório de análise de preferências por renda, como faço?",analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Posso criar um relatório de análise de preferências por educação?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Como posso criar um relatório de análise de preferências por ocupação?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+"Quero criar um relatório de análise de preferências por comportamento, como faço?",analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Posso criar um relatório de análise de preferências por objetivo?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Como posso visualizar as preferências dos meus clientes em um dashboard?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Como posso criar uma equipe de desenvolvimento?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+"Quero criar uma equipe de desenvolvimento para o meu projeto, como faço?",create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Posso criar uma equipe de desenvolvimento para o meu departamento?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Como posso criar uma equipe de desenvolvimento para o meu time de trabalho?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+"Quero criar uma equipe de desenvolvimento para o meu cliente, como faço?",create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Posso criar uma equipe de desenvolvimento para o meu fornecedor?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Como posso criar uma equipe de desenvolvimento para o meu parceiro de negócios?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+"Quero criar uma equipe de desenvolvimento para o meu projeto de marketing, como faço?",create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Posso criar uma equipe de desenvolvimento para o meu projeto de desenvolvimento de software?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Como posso criar uma equipe de desenvolvimento para o meu projeto de infraestrutura?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+"Quero criar uma equipe de desenvolvimento para o meu projeto de pesquisa, como faço?",create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Posso criar uma equipe de desenvolvimento para o meu projeto de treinamento?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Como posso visualizar a equipe de desenvolvimento em um organograma?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Como posso acompanhar a localização do usuário?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+"Quero visualizar a localização do usuário em um mapa, como faço?",track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Posso receber notificações sobre a localização do usuário?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Como posso criar um relatório de localização do usuário?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+"Quero criar um gráfico de localização do usuário, como faço?",track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Posso criar um mapa de calor de localização do usuário?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Como posso criar um relatório de localização do usuário por data?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+"Quero criar um relatório de localização do usuário por categoria, como faço?",track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Posso criar um relatório de localização do usuário por objetivo?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Como posso criar um plano de ação para melhorar a localização do usuário?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+"Quero receber recomendações para melhorar a localização do usuário, como faço?",track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Posso criar um lembrete para realizar uma ação de localização?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Como posso visualizar a localização do usuário em um dashboard?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Como posso criar uma campanha de e-mail?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+"Quero criar uma campanha de e-mail para o meu cliente, como faço?",send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Posso criar uma campanha de e-mail para o meu fornecedor?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Como posso criar uma campanha de e-mail para o meu parceiro de negócios?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+"Quero criar uma campanha de e-mail para o meu projeto de marketing, como faço?",send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Posso criar uma campanha de e-mail para o meu projeto de desenvolvimento de software?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Como posso criar uma campanha de e-mail para o meu projeto de infraestrutura?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+"Quero criar uma campanha de e-mail para o meu projeto de pesquisa, como faço?",send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Posso criar uma campanha de e-mail para o meu projeto de treinamento?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Como posso criar um modelo de e-mail para a minha campanha?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+"Quero criar um relatório de campanha de e-mail, como faço?",send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Posso criar um gráfico de campanha de e-mail?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Como posso visualizar a campanha de e-mail em um dashboard?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Como posso criar um gateway de pagamento?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+"Quero criar um gateway de pagamento para o meu site, como faço?",make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Posso criar um gateway de pagamento para o meu aplicativo?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Como posso criar um gateway de pagamento para o meu sistema de gestão?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+"Quero criar um gateway de pagamento para o meu cliente, como faço?",make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Posso criar um gateway de pagamento para o meu fornecedor?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Como posso criar um gateway de pagamento para o meu parceiro de negócios?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+"Quero criar um gateway de pagamento para o meu projeto de marketing, como faço?",make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Posso criar um gateway de pagamento para o meu projeto de desenvolvimento de software?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Como posso criar um gateway de pagamento para o meu projeto de infraestrutura?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+"Quero criar um gateway de pagamento para o meu projeto de pesquisa, como faço?",make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Posso criar um gateway de pagamento para o meu projeto de treinamento?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Como posso visualizar o gateway de pagamento em um dashboard?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quais são os melhores horários para uma reunião com os funcionários?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Posso agendar uma reunião com 5 pessoas para amanhã?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Qual é o melhor dia e hora para uma reunião com o cliente?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Quais são as melhores opções de horário para uma reunião com a equipe de vendas?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Como posso agendar uma reunião com o gerente de marketing?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Quais são os horários mais convenientes para uma reunião com a equipe de desenvolvimento?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Posso agendar uma reunião com 10 pessoas para esta semana?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Qual é o melhor dia para uma reunião com o CEO?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Quais são as opções de horário para uma reunião com a equipe de suporte?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Como posso agendar uma reunião com o departamento de RH?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Quais são os melhores horários para uma reunião com a equipe de finanças?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Posso agendar uma reunião com 3 pessoas para hoje?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Quais são as opções de horário para uma reunião com o cliente estrangeiro?,schedule_meeting,agenda,Agenda uma reunião com base na disponibilidade dos participantes.,facil
+Qual é o preço atual da ação da Apple?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto vale a ação da Microsoft?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o valor atual da ação da Amazon?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto custa a ação da Google?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o preço atual da ação da Facebook?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto vale a ação da Tesla?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o valor atual da ação da Netflix?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto custa a ação da Coca-Cola?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o preço atual da ação da Intel?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto vale a ação da Visa?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o valor atual da ação da Mastercard?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quanto custa a ação da IBM?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o preço atual da ação da Cisco?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual será o clima em São Paulo amanhã?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quais são as chances de chuva em Rio de Janeiro esta semana?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Nova York?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quanto vai fazer em Los Angeles hoje?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Paris?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quais são as chances de neve em Londres esta semana?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Tóquio?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quanto vai fazer em Sydney hoje?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Buenos Aires?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quais são as chances de chuva em Madrid esta semana?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Berlim?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Quanto vai fazer em Roma hoje?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Qual é a previsão do tempo para a cidade de Pequim?,predict_weather,clima,Preve o clima para um local e data específicos.,facil
+Como posso enviar um e-mail para o meu gerente?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+"Quero enviar um e-mail para o meu cliente, como faço?",send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Posso enviar um e-mail em massa para todos os funcionários?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Como posso adicionar um anexo a um e-mail?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+"Quero enviar um e-mail para o meu amigo, como faço?",send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Posso enviar um e-mail com uma imagem?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Como posso criar uma lista de e-mails para enviar newsletters?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+"Quero enviar um e-mail para o meu professor, como faço?",send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Posso enviar um e-mail com um link para um site?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Como posso personalizar o assunto de um e-mail?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+"Quero enviar um e-mail para o meu colega de trabalho, como faço?",send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Posso enviar um e-mail com um arquivo zip?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Como posso agendar o envio de um e-mail para mais tarde?,send_email,comunicacao,"Envia um e-mail com base em destinatário, assunto e corpo.",facil
+Como posso registrar minhas despesas de viagem?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+"Quero acompanhar minhas despesas mensais, como faço?",track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Posso registrar minhas despesas de comida em um restaurante?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Como posso categorizar minhas despesas de modo eficaz?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+"Quero acompanhar minhas despesas de entretenimento, como faço?",track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Posso registrar minhas despesas de transporte?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Como posso criar um orçamento para minhas despesas?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+"Quero acompanhar minhas despesas de hospedagem, como faço?",track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Posso registrar minhas despesas de compras online?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Como posso visualizar minhas despesas em um gráfico?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+"Quero acompanhar minhas despesas de saúde, como faço?",track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Posso registrar minhas despesas de educação?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Como posso receber notificações sobre minhas despesas?,track_expenses,financas,Registra e acompanha as despesas de um usuário.,facil
+Como posso criar uma tarefa para o meu time de trabalho?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+"Quero criar uma tarefa para o meu colega de trabalho, como faço?",create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Posso criar uma tarefa com prazo de entrega?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Como posso priorizar minhas tarefas?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+"Quero criar uma tarefa para o meu projeto pessoal, como faço?",create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Posso criar uma tarefa com dependências?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Como posso criar uma lista de tarefas para o dia?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+"Quero criar uma tarefa para o meu gerente, como faço?",create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Posso criar uma tarefa com anexos?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Como posso criar uma tarefa recorrente?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+"Quero criar uma tarefa para o meu time de marketing, como faço?",create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Posso criar uma tarefa com um limite de tempo?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Como posso visualizar minhas tarefas em um calendário?,create_task,produtividade,"Cria uma nova tarefa com base em descrição, prazo e prioridade.",facil
+Como posso reservar um voo para São Paulo?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+"Quero reservar um voo para o Rio de Janeiro, como faço?",book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Posso reservar um voo para Nova York?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Como posso encontrar voos baratos para Los Angeles?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+"Quero reservar um voo para Paris, como faço?",book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Posso reservar um voo para Tóquio?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Como posso comparar preços de voos?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+"Quero reservar um voo para Sydney, como faço?",book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Posso reservar um voo para Buenos Aires?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Como posso reservar um voo com mais de uma escala?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+"Quero reservar um voo para Madrid, como faço?",book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Posso reservar um voo para Berlim?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Como posso visualizar meu itinerário de viagem?,book_flight,viagens,"Reserva um voo com base em origem, destino e data de viagem.",facil
+Como posso acompanhar o status do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+"Quero cancelar meu pedido, como faço?",manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Posso alterar o endereço de entrega do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Como posso solicitar um reembolso para o meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+"Quero adicionar um item ao meu pedido, como faço?",manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Posso remover um item do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Como posso visualizar o histórico de pedidos?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+"Quero solicitar uma troca de produto, como faço?",manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Posso alterar o método de pagamento do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Como posso receber notificações sobre o status do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+"Quero solicitar um desconto para o meu pedido, como faço?",manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Posso adicionar um cupom de desconto ao meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Como posso visualizar o total do meu pedido?,manage_ecommerce_order,e-commerce,Gerencia um pedido de e-commerce com base em informações do cliente e produtos.,dificil
+Como posso ligar a luz da sala?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+"Quero desligar o ar-condicionado, como faço?",control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Posso ajustar a temperatura do termostato?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Como posso abrir a cortina da janela?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+"Quero fechar a porta da garagem, como faço?",control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Posso ligar a TV?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Como posso ajustar o volume do som?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+"Quero desligar a cafeteira, como faço?",control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Posso ligar a máquina de lavar louça?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Como posso visualizar o status dos dispositivos da casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+"Quero receber notificações sobre a segurança da casa, como faço?",control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Posso controlar os dispositivos da casa remotamente?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Como posso criar uma cena para a iluminação da casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo de casa inteligente com base em ações e estado.,dificil
+Como posso criar um gráfico de barras para os meus dados?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+"Quero realizar uma análise de regressão linear, como faço?",analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Posso criar um gráfico de pizza para os meus dados?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Como posso realizar uma análise de clusterização?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+"Quero criar um gráfico de linha para os meus dados, como faço?",analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Posso realizar uma análise de correlação?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Como posso criar um gráfico de dispersão para os meus dados?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+"Quero realizar uma análise de tendência, como faço?",analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Posso criar um gráfico de área para os meus dados?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Como posso realizar uma análise de frequência?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+"Quero criar um gráfico de radar para os meus dados, como faço?",analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Posso realizar uma análise de segmentação?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Como posso visualizar os meus dados em um mapa?,analyze_data,analise_de_dados,Analisa um conjunto de dados com base em tipo e objetivo da análise.,dificil
+Como posso receber um lembrete para tomar o meu medicamento?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+"Quero agendar um lembrete para tomar a minha pílula, como faço?",get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Posso receber um lembrete para ir ao médico?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Como posso criar um cronograma para os meus medicamentos?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+"Quero receber um lembrete para tomar o meu medicamento em uma determinada hora, como faço?",get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Posso criar um lembrete para tomar a minha vitamina?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Como posso visualizar o histórico dos meus medicamentos?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+"Quero receber um lembrete para renovar a minha prescrição, como faço?",get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Posso criar um lembrete para ir ao farmacêutico?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Como posso receber notificações sobre os meus medicamentos?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+"Quero criar um lembrete para tomar o meu medicamento em uma determinada data, como faço?",get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Posso criar um lembrete para tomar a minha vacina?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Como posso visualizar as instruções dos meus medicamentos?,get_medication_reminder,saude,Fornece um lembrete de medicação com base em data e hora.,facil
+Como posso criar um novo projeto de desenvolvimento de software?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+"Quero criar um projeto em Java, como faço?",create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Posso criar um projeto em Python?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Como posso criar um projeto em JavaScript?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+"Quero criar um projeto em PHP, como faço?",create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Posso criar um projeto em Ruby?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Como posso criar um projeto em C++?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+"Quero criar um projeto em Swift, como faço?",create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Posso criar um projeto em Kotlin?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Como posso criar um projeto em Go?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+"Quero criar um projeto em Rust, como faço?",create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Posso criar um projeto em TypeScript?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Como posso visualizar o progresso do meu projeto?,create_development_project,desenvolvimento_de_software,Cria um novo projeto de desenvolvimento de software com base em linguagem e framework.,facil
+Como posso acompanhar a atividade do usuário no meu site?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+"Quero visualizar o histórico de atividades do usuário, como faço?",track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Posso receber notificações sobre as atividades do usuário?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Como posso criar um relatório de atividades do usuário?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+"Quero visualizar o tempo gasto pelo usuário em cada página, como faço?",track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Posso acompanhar a atividade do usuário em tempo real?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Como posso criar um gráfico de atividades do usuário?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+"Quero visualizar a atividade do usuário por dispositivo, como faço?",track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Posso criar um relatório de atividades do usuário por data?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Como posso receber notificações sobre as atividades do usuário em um determinado período?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+"Quero visualizar a atividade do usuário por hora do dia, como faço?",track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Posso criar um relatório de atividades do usuário por localização?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Como posso visualizar a atividade do usuário em um mapa?,track_user_activity,produtividade,Registra e acompanha as atividades de um usuário.,facil
+Como posso realizar um pagamento com o meu cartão de crédito?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+"Quero realizar um pagamento com o meu cartão de débito, como faço?",make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Posso realizar um pagamento com o PayPal?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Como posso realizar um pagamento com o meu banco?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+"Quero realizar um pagamento com o meu telefone, como faço?",make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Posso realizar um pagamento com o meu smartwatch?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Como posso realizar um pagamento com o meu computador?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+"Quero realizar um pagamento com o meu tablet, como faço?",make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Posso realizar um pagamento com o meu console de jogos?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Como posso visualizar o histórico de pagamentos?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+"Quero receber notificações sobre os meus pagamentos, como faço?",make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Posso criar um lembrete para realizar um pagamento?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Como posso visualizar o saldo do meu conta?,make_payment,financas,"Realiza um pagamento com base em valor, método e destinatário.",facil
+Como posso verificar as tendências climáticas em São Paulo?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+"Quero verificar as tendências climáticas em Nova York, como faço?",check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Posso verificar as tendências climáticas em Tóquio?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Como posso verificar as tendências climáticas em Los Angeles?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+"Quero verificar as tendências climáticas em Paris, como faço?",check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Posso verificar as tendências climáticas em Londres?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Como posso verificar as tendências climáticas em Sydney?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+"Quero verificar as tendências climáticas em Buenos Aires, como faço?",check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Posso verificar as tendências climáticas em Madrid?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Como posso verificar as tendências climáticas em Berlim?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+"Quero verificar as tendências climáticas em Pequim, como faço?",check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Posso verificar as tendências climáticas em Moscou?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Como posso visualizar as tendências climáticas em um mapa?,check_climate_trends,clima,Verifica tendências climáticas com base em local e período.,dificil
+Como posso enviar uma notificação para o meu time de trabalho?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+"Quero enviar uma notificação para o meu gerente, como faço?",send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Posso enviar uma notificação para o meu cliente?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Como posso enviar uma notificação para o meu amigo?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+"Quero enviar uma notificação para o meu colega de trabalho, como faço?",send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Posso enviar uma notificação para o meu professor?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Como posso enviar uma notificação para o meu aluno?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+"Quero enviar uma notificação para o meu parceiro de negócios, como faço?",send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Posso enviar uma notificação para o meu fornecedor?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Como posso criar um modelo de notificação?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+"Quero enviar uma notificação com um anexo, como faço?",send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Posso enviar uma notificação com um link?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Como posso visualizar o histórico de notificações?,send_notification,comunicacao,"Envia uma notificação com base em destinatário, assunto e corpo.",facil
+Como posso analisar os dados dos meus clientes?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+"Quero criar um relatório de análise de clientes, como faço?",analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Posso criar um gráfico de análise de clientes?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Como posso criar um mapa de calor de análise de clientes?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+"Quero criar um relatório de análise de clientes por região, como faço?",analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Posso criar um relatório de análise de clientes por idade?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Como posso criar um relatório de análise de clientes por gênero?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+"Quero criar um relatório de análise de clientes por renda, como faço?",analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Posso criar um relatório de análise de clientes por educação?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Como posso criar um relatório de análise de clientes por ocupação?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+"Quero criar um relatório de análise de clientes por comportamento, como faço?",analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Posso criar um relatório de análise de clientes por preferência?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Como posso visualizar os dados dos meus clientes em um dashboard?,analyze_customer_data,analise_de_dados,Analisa dados de cliente com base em comportamento e preferências.,dificil
+Como posso criar um plano de orçamento para a minha empresa?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+"Quero criar um plano de orçamento para o meu projeto, como faço?",create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Posso criar um plano de orçamento para o meu departamento?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Como posso criar um plano de orçamento para o meu time de trabalho?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+"Quero criar um plano de orçamento para o meu cliente, como faço?",create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Posso criar um plano de orçamento para o meu fornecedor?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Como posso criar um plano de orçamento para o meu parceiro de negócios?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+"Quero criar um plano de orçamento para o meu projeto de marketing, como faço?",create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Posso criar um plano de orçamento para o meu projeto de desenvolvimento de software?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Como posso criar um plano de orçamento para o meu projeto de infraestrutura?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+"Quero criar um plano de orçamento para o meu projeto de pesquisa, como faço?",create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Posso criar um plano de orçamento para o meu projeto de treinamento?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Como posso visualizar o plano de orçamento em um gráfico?,create_budget_plan,financas,Cria um plano de orçamento com base em receita e despesa.,facil
+Como posso controlar o meu robô?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+"Quero fazer o meu robô se mover, como faço?",control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Posso fazer o meu robô realizar uma ação?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Como posso criar um programa para o meu robô?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+"Quero criar um robô que possa realizar tarefas, como faço?",control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Posso criar um robô que possa interagir com o ambiente?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Como posso criar um robô que possa aprender?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+"Quero criar um robô que possa realizar tarefas em equipe, como faço?",control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Posso criar um robô que possa realizar tarefas em um ambiente desconhecido?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Como posso criar um robô que possa realizar tarefas com precisão?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+"Quero criar um robô que possa realizar tarefas com eficiência, como faço?",control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Posso criar um robô que possa realizar tarefas com autonomia?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Como posso visualizar o status do meu robô?,control_robot,desenvolvimento_de_software,Controla um robô com base em comandos e estado.,dificil
+Como posso acompanhar os meus indicadores de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+"Quero visualizar o meu histórico de saúde, como faço?",track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Posso receber notificações sobre os meus indicadores de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Como posso criar um gráfico de indicadores de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+"Quero criar um relatório de indicadores de saúde, como faço?",track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Posso criar um mapa de calor de indicadores de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Como posso criar um relatório de indicadores de saúde por data?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+"Quero criar um relatório de indicadores de saúde por categoria, como faço?",track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Posso criar um relatório de indicadores de saúde por objetivo?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Como posso criar um plano de ação para melhorar os meus indicadores de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+"Quero receber recomendações para melhorar os meus indicadores de saúde, como faço?",track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Posso criar um lembrete para realizar uma atividade de saúde?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Como posso visualizar os meus indicadores de saúde em um dashboard?,track_health_metrics,saude,Registra e acompanha métricas de saúde com base em tipo e valor.,facil
+Como posso criar um relatório para o meu projeto?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+"Quero criar um relatório para o meu cliente, como faço?",generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Posso criar um relatório para o meu gerente?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Como posso criar um relatório para o meu time de trabalho?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+"Quero criar um relatório para o meu departamento, como faço?",generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Posso criar um relatório para o meu fornecedor?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Como posso criar um relatório para o meu parceiro de negócios?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+"Quero criar um relatório para o meu projeto de marketing, como faço?",generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Posso criar um relatório para o meu projeto de desenvolvimento de software?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Como posso criar um relatório para o meu projeto de infraestrutura?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+"Quero criar um relatório para o meu projeto de pesquisa, como faço?",generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Posso criar um relatório para o meu projeto de treinamento?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Como posso visualizar o relatório em um gráfico?,generate_report,analise_de_dados,Gera um relatório com base em dados e objetivo.,dificil
+Como posso reservar um voo para São Paulo?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+"Quero reservar um hotel em Nova York, como faço?",make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Posso reservar um carro em Los Angeles?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Como posso reservar um pacote de viagem para Paris?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+"Quero reservar um cruzeiro para o Caribe, como faço?",make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Posso reservar um passeio em Tóquio?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Como posso reservar um tour em Sydney?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+"Quero reservar um aluguer de apartamento em Buenos Aires, como faço?",make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Posso reservar um resort em Miami?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Como posso reservar um bilhete de trem para Londres?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+"Quero reservar um passeio em Roma, como faço?",make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Posso reservar um almoço em um restaurante em Pequim?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Como posso visualizar as opções de viagem disponíveis?,make_travel_reservation,viagens,"Realiza uma reserva de viagem com base em destino, data e acomodação.",facil
+Como posso acompanhar o status do meu pedido?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+"Quero visualizar o histórico de pedidos, como faço?",track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Posso receber notificações sobre o status do meu pedido?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Como posso criar um relatório de pedidos?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+"Quero criar um gráfico de pedidos, como faço?",track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Posso criar um mapa de calor de pedidos?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Como posso criar um relatório de pedidos por data?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+"Quero criar um relatório de pedidos por categoria, como faço?",track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Posso criar um relatório de pedidos por objetivo?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Como posso criar um plano de ação para melhorar os meus pedidos?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+"Quero receber recomendações para melhorar os meus pedidos, como faço?",track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Posso criar um lembrete para realizar uma ação de pedido?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Como posso visualizar os meus pedidos em um dashboard?,track_ecommerce_order,e-commerce,Acompanha o status de um pedido de e-commerce.,facil
+Como posso controlar a segurança da minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+"Quero criar um sistema de segurança para a minha casa, como faço?",control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Posso criar um sistema de vigilância para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Como posso criar um sistema de alerta para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+"Quero criar um sistema de controle de acesso para a minha casa, como faço?",control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Posso criar um sistema de detecção de intrusos para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Como posso criar um sistema de iluminação de segurança para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+"Quero criar um sistema de som de segurança para a minha casa, como faço?",control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Posso criar um sistema de detecção de fumaça para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Como posso criar um sistema de detecção de inundação para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+"Quero criar um sistema de backup de energia para a minha casa, como faço?",control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Posso criar um sistema de controle de temperatura para a minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Como posso visualizar o status da segurança da minha casa?,control_smart_home_security,casa_inteligente,Controla a segurança de uma casa inteligente com base em sensores e estado.,dificil
+Como posso analisar as preferências dos meus clientes?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+"Quero criar um relatório de análise de preferências, como faço?",analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Posso criar um gráfico de análise de preferências?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Como posso criar um mapa de calor de análise de preferências?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+"Quero criar um relatório de análise de preferências por região, como faço?",analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Posso criar um relatório de análise de preferências por idade?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Como posso criar um relatório de análise de preferências por gênero?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+"Quero criar um relatório de análise de preferências por renda, como faço?",analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Posso criar um relatório de análise de preferências por educação?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Como posso criar um relatório de análise de preferências por ocupação?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+"Quero criar um relatório de análise de preferências por comportamento, como faço?",analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Posso criar um relatório de análise de preferências por objetivo?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Como posso visualizar as preferências dos meus clientes em um dashboard?,analyze_customer_preferences,analise_de_dados,Analisa preferências de cliente com base em comportamento e dados demográficos.,dificil
+Como posso criar uma equipe de desenvolvimento?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+"Quero criar uma equipe de desenvolvimento para o meu projeto, como faço?",create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Posso criar uma equipe de desenvolvimento para o meu departamento?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Como posso criar uma equipe de desenvolvimento para o meu time de trabalho?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+"Quero criar uma equipe de desenvolvimento para o meu cliente, como faço?",create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Posso criar uma equipe de desenvolvimento para o meu fornecedor?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Como posso criar uma equipe de desenvolvimento para o meu parceiro de negócios?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+"Quero criar uma equipe de desenvolvimento para o meu projeto de marketing, como faço?",create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Posso criar uma equipe de desenvolvimento para o meu projeto de desenvolvimento de software?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Como posso criar uma equipe de desenvolvimento para o meu projeto de infraestrutura?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+"Quero criar uma equipe de desenvolvimento para o meu projeto de pesquisa, como faço?",create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Posso criar uma equipe de desenvolvimento para o meu projeto de treinamento?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Como posso visualizar a equipe de desenvolvimento em um organograma?,create_development_team,desenvolvimento_de_software,Cria uma equipe de desenvolvimento com base em membros e habilidades.,dificil
+Como posso acompanhar a localização do usuário?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+"Quero visualizar a localização do usuário em um mapa, como faço?",track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Posso receber notificações sobre a localização do usuário?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Como posso criar um relatório de localização do usuário?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+"Quero criar um gráfico de localização do usuário, como faço?",track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Posso criar um mapa de calor de localização do usuário?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Como posso criar um relatório de localização do usuário por data?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+"Quero criar um relatório de localização do usuário por categoria, como faço?",track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Posso criar um relatório de localização do usuário por objetivo?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Como posso criar um plano de ação para melhorar a localização do usuário?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+"Quero receber recomendações para melhorar a localização do usuário, como faço?",track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Posso criar um lembrete para realizar uma ação de localização?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Como posso visualizar a localização do usuário em um dashboard?,track_user_location,produtividade,Registra e acompanha a localização de um usuário.,facil
+Como posso criar uma campanha de e-mail?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+"Quero criar uma campanha de e-mail para o meu cliente, como faço?",send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Posso criar uma campanha de e-mail para o meu fornecedor?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Como posso criar uma campanha de e-mail para o meu parceiro de negócios?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+"Quero criar uma campanha de e-mail para o meu projeto de marketing, como faço?",send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Posso criar uma campanha de e-mail para o meu projeto de desenvolvimento de software?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Como posso criar uma campanha de e-mail para o meu projeto de infraestrutura?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+"Quero criar uma campanha de e-mail para o meu projeto de pesquisa, como faço?",send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Posso criar uma campanha de e-mail para o meu projeto de treinamento?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Como posso criar um modelo de e-mail para a minha campanha?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+"Quero criar um relatório de campanha de e-mail, como faço?",send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Posso criar um gráfico de campanha de e-mail?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Como posso visualizar a campanha de e-mail em um dashboard?,send_email_campaign,comunicacao,"Envia uma campanha de e-mail com base em destinatários, assunto e corpo.",dificil
+Como posso criar um gateway de pagamento?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+"Quero criar um gateway de pagamento para o meu site, como faço?",make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Posso criar um gateway de pagamento para o meu aplicativo?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Como posso criar um gateway de pagamento para o meu sistema de gestão?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+"Quero criar um gateway de pagamento para o meu cliente, como faço?",make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Posso criar um gateway de pagamento para o meu fornecedor?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Como posso criar um gateway de pagamento para o meu parceiro de negócios?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+"Quero criar um gateway de pagamento para o meu projeto de marketing, como faço?",make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Posso criar um gateway de pagamento para o meu projeto de desenvolvimento de software?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Como posso criar um gateway de pagamento para o meu projeto de infraestrutura?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+"Quero criar um gateway de pagamento para o meu projeto de pesquisa, como faço?",make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Posso criar um gateway de pagamento para o meu projeto de treinamento?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Como posso visualizar o gateway de pagamento em um dashboard?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor restaurante em São Paulo?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de futebol do mundo?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor cantor de música popular?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor livro de ficção científica?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de Hollywood?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para o verão?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de basquete da NBA?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de vídeo game de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de rock?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida italiana?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de tênis do mundo?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de terror de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de comédia?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para o inverno?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de futebol americano?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de tabuleiro de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de jazz?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida japonesa?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de golfe do mundo?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de animação de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de drama?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para a primavera?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de basquete da Europa?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de vídeo game de esporte?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de música clássica?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida mexicana?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de futebol da Europa?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de aventura de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de ação?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para o outono?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de tênis da Europa?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de tabuleiro de estratégia?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de música popular brasileira?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida chinesa?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de golfe da Europa?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de comédia de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de comédia romântica?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para o verão do hemisfério norte?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de futebol americano da NFL?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de vídeo game de simulação?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de rock brasileiro?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida árabe?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de basquete da Europa?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de drama de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de teatro?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para a primavera do hemisfério norte?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de tênis da América do Sul?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de tabuleiro de cartas?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de música eletrônica?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida indiana?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de golfe da América do Sul?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de terror de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de cinema brasileiro?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para o outono do hemisfério norte?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de futebol da América do Sul?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de vídeo game de ação?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de música clássica brasileira?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida peruana?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de basquete da América do Sul?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de animação de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de televisão?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para o verão do hemisfério sul?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de tênis da Ásia?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de tabuleiro de estratégia?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de música popular asiática?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida coreana?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de golfe da Ásia?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de aventura de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de cinema asiático?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para a primavera do hemisfério sul?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de futebol da Ásia?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de vídeo game de esporte?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de rock asiático?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida japonesa?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de basquete da Ásia?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de comédia de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de comédia asiático?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para o outono do hemisfério sul?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de tênis da África?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de tabuleiro de cartas?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de música popular africana?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida africana?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de golfe da África?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de drama de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de cinema africano?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para o verão do hemisfério norte?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de futebol da África?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de vídeo game de ação?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de música clássica africana?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida árabe?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de basquete da África?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de animação de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de televisão africano?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para a primavera do hemisfério norte?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de tênis da Oceania?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de tabuleiro de estratégia?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de música popular da Oceania?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida australiana?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de golfe da Oceania?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de aventura de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de cinema da Oceania?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor destino de viagem para o outono do hemisfério norte?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de futebol da Oceania?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor jogo de vídeo game de esporte?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor músico de rock da Oceania?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor prato de comida neozelandesa?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor jogador de basquete da Oceania?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Qual é o melhor filme de comédia de todos os tempos?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
+Quem é o melhor ator de comédia da Oceania?,make_payment_gateway,financas,Cria um gateway de pagamento com base em método e credenciais.,dificil
