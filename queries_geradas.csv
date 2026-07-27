@@ -1,0 +1,378 @@
+texto_query,nome_tool,tipo_tool,funcao_tool,dificuldade_query
+Preciso agendar uma reunião com o time de marketing para discutir o novo projeto.,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Como posso encontrar um horário que funcione para todos os participantes da reunião?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Quais são os horários disponíveis para a reunião da semana que vem?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Preciso remarcar a reunião de hoje para amanhã.,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Como faço para agendar uma reunião com pessoas de diferentes fusos horários?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Quais são os melhores horários para agendar reuniões com os clientes?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Preciso agendar uma reunião com o CEO para discutir o relatório financeiro.,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Como posso evitar conflitos de horários com outras reuniões?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Quais são os horários mais produtivos para agendar reuniões?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Preciso agendar uma reunião com um grupo grande de pessoas.,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Como faço para agendar uma reunião com alguém que está em férias?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Quais são os melhores dias da semana para agendar reuniões?,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Preciso agendar uma reunião com um cliente que está em um fuso horário diferente.,schedule_meeting,agenda,Agenda uma reunião com base nos horários disponíveis dos participantes.,dificil
+Qual é o preço atual da ação da Apple?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Preciso saber o valor da ação daMicrosoft.,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quais são os preços atuais das ações da bolsa de valores?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o preço da ação da Google?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Preciso verificar o preço da ação da Amazon.,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quais são as ações mais negociadas no mercado?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o preço atual da ação da Facebook?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Preciso saber o preço da ação da Tesla.,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quais são as ações com maior valor de mercado?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o preço da ação da Netflix?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Preciso verificar o preço da ação da Coca-Cola.,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Quais são as ações mais lucrativas do ano?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Qual é o preço atual da ação da Samsung?,get_stock_price,financas,Retorna o preço atual de uma ação específica.,facil
+Preciso enviar um e-mail para o meu gerente sobre o projeto.,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Como posso enviar um e-mail para um grupo de pessoas?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Quais são os melhores assuntos para incluir em um e-mail?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Preciso enviar um e-mail para um cliente sobre a entrega do produto.,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Como faço para incluir anexos em um e-mail?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Quais são as melhores palavras-chave para incluir no assunto de um e-mail?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Preciso enviar um e-mail para o time de suporte sobre um problema técnico.,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Como posso personalizar um e-mail para um destinatário específico?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Quais são as regras para incluir links em um e-mail?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Preciso enviar um e-mail para um grupo de amigos sobre um evento.,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Como faço para incluir uma imagem em um e-mail?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Quais são as melhores práticas para escrever um e-mail de negócios?,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Preciso enviar um e-mail para um cliente sobre a devolução de um produto.,send_email,comunicacao,Envia um e-mail para um destinatário específico.,facil
+Onde está o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Quando chegará o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Como posso rastrear o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Qual é o status do meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Quando foi enviado o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Como posso saber se o meu pacote foi entregue?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+O que significa o status 'em trânsito'?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Como posso saber se o meu pacote foi perdido?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Quais são os prazos de entrega para o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Como posso rastrear o meu pacote internacional?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Quais são as opções de entrega para o meu pacote?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Como posso saber se o meu pacote foi assinado?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+O que devo fazer se o meu pacote não chegou?,track_package,ecommerce,Retorna o status de entrega de um pacote.,facil
+Preciso criar uma lista de tarefas para o dia de hoje.,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Como posso organizar minhas tarefas pelo prazo de entrega?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Quais são as tarefas mais importantes que devo realizar primeiro?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Preciso criar uma lista de tarefas para o projeto.,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Como posso adicionar lembretes às minhas tarefas?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Quais são as tarefas que posso delegar para os outros?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Preciso criar uma lista de tarefas para a semana.,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Como posso priorizar minhas tarefas?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Quais são as tarefas que posso realizar em paralelo?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Preciso criar uma lista de tarefas para o mês.,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Como posso compartilhar minhas tarefas com os outros?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Quais são as tarefas que posso realizar em qualquer lugar?,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Preciso criar uma lista de tarefas para o ano.,create_todo_list,produtividade,Cria uma lista de tarefas para gerenciamento de tempo.,dificil
+Qual é a previsão do tempo para hoje?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Quais são as condições climáticas atuais?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Preciso saber a previsão do tempo para a semana.,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Qual é a temperatura atual?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Quais são as chances de chuva para hoje?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Preciso saber a previsão do tempo para o fim de semana.,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Quais são as condições climáticas para a próxima semana?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Preciso saber a previsão do tempo para o mês.,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Quais são as temperaturas mínimas e máximas para a semana?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Preciso saber a previsão do tempo para o ano.,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Quais são as condições climáticas para a estação atual?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Preciso saber a previsão do tempo para a região.,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Quais são as chances de neve para a próxima semana?,get_weather_forecast,clima,Retorna a previsão do tempo para uma localização específica.,facil
+Preciso reservar um voo para a próxima semana.,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Quais são os voos mais baratos para o destino?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Como posso encontrar os melhores voos para o meu orçamento?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Preciso reservar um voo para o mês que vem.,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Quais são as opções de voos para o destino?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Como posso comparar os preços dos voos?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Preciso reservar um voo para o ano que vem.,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Quais são as condições climáticas no destino?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Como posso saber se o voo está disponível?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Preciso reservar um voo para um grupo de pessoas.,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Quais são as opções de voos para o destino com escalas?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Como posso saber se o voo tem Wi-Fi?,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Preciso reservar um voo para um destino internacional.,book_flight,viagens,Reserva um voo para uma data e localização específicos.,dificil
+Preciso criar uma senha segura para a minha conta.,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Quais são as melhores práticas para criar senhas fortes?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Como posso criar uma senha que seja fácil de lembrar?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Preciso criar uma senha para o meu e-mail.,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Quais são as opções para criar senhas aleatórias?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Como posso criar uma senha que seja difícil de adivinhar?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Preciso criar uma senha para o meu banco online.,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Quais são as opções para criar senhas com letras e números?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Como posso criar uma senha que seja fácil de digitar?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Preciso criar uma senha para o meu site.,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Quais são as opções para criar senhas com símbolos?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Como posso criar uma senha que seja fácil de lembrar e segura?,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Preciso criar uma senha para o meu aplicativo de banco.,generate_password,seguranca,Gera uma senha segura e aleatória.,facil
+Preciso lembrar de tomar o meu remédio todas as manhãs.,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Quais são as opções para lembrar de tomar medicamentos?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Como posso criar um lembrete para tomar o meu remédio?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Preciso lembrar de tomar o meu remédio todas as noites.,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Quais são as opções para lembrar de tomar medicamentos com frequência?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Como posso saber se eu já tomei o meu remédio?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Preciso lembrar de tomar o meu remédio em um horário específico.,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Quais são as opções para lembrar de tomar medicamentos com doses específicas?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Como posso lembrar de tomar o meu remédio quando estou viajando?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Preciso lembrar de tomar o meu remédio durante um período de tempo específico.,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Quais são as opções para lembrar de tomar medicamentos com interações?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Como posso saber se eu esqueci de tomar o meu remédio?,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Preciso lembrar de tomar o meu remédio para uma condição médica específica.,get_medication_reminder,saude,Retorna um lembrete para tomar medicamentos.,facil
+Preciso ligar a luz da sala de estar.,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Quais são as opções para controlar os dispositivos da casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Como posso criar um cenário para a minha casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Preciso desligar a luz da cozinha.,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Quais são as opções para controlar a temperatura da casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Como posso saber se a porta da frente está trancada?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Preciso ligar a TV da sala de estar.,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Quais são as opções para controlar os dispositivos da casa com voz?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Como posso saber se a casa está segura?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Preciso desligar a luz do quarto.,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Quais são as opções para controlar os dispositivos da casa com aplicativos?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Como posso criar um cronograma para os dispositivos da casa?,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Preciso ligar a café da manhã.,control_smart_home_device,casa_inteligente,Controla um dispositivo inteligente de casa.,dificil
+Preciso analisar os dados de vendas do mês passado.,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Quais são as tendências nos dados de tráfego do site?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Como posso criar um relatório de dados para o meu gerente?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Preciso analisar os dados de engajamento do meu perfil de mídia social.,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Quais são as opções para criar gráficos e tabelas com os dados?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Como posso saber se os dados estão aumentando ou diminuindo?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Preciso analisar os dados de crescimento do meu negócio.,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Quais são as opções para criar alertas com base nos dados?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Como posso saber se os dados estão dentro da faixa normal?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Preciso analisar os dados de satisfação do cliente.,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Quais são as opções para criar previsões com base nos dados?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Como posso saber se os dados estão relacionados a outros fatores?,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Preciso analisar os dados de desempenho do meu time.,analyze_data_trend,analise_de_dados,Análisa tendências em um conjunto de dados.,dificil
+Quais são as condições de trânsito atuais?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Preciso saber se há congestionamentos na rodovia.,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Como posso saber se há acidentes na estrada?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Quais são as opções para evitar o trânsito pesado?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Preciso saber se há obras na rodovia。,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Quais são as condições de trânsito para o meu destino?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Como posso saber se há manifestações ou protestos na área?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Preciso saber se há fechamentos de ruas ou avenidas.,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Quais são as opções para encontrar uma rota alternativa?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Como posso saber se há condições climáticas adversas na estrada?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Preciso saber se há limitações de velocidade na rodovia.,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Quais são as opções para saber se há problemas com a infraestrutura da estrada?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Como posso saber se há alertas de segurança na área?,get_traffic_update,transito,Retorna atualizações sobre o trânsito.,facil
+Preciso criar um ticket de suporte para o meu problema de software.,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Quais são as opções para criar um ticket de suporte?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Como posso criar um ticket de suporte para o meu problema técnico?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Preciso criar um ticket de suporte para o meu problema de rede.,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Quais são as opções para criar um ticket de suporte com prioridade?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Como posso saber se o meu ticket de suporte foi recebido?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Preciso criar um ticket de suporte para o meu problema de hardware.,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Quais são as opções para criar um ticket de suporte com anexos?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Como posso saber se o meu ticket de suporte está sendo processado?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Preciso criar um ticket de suporte para o meu problema de segurança.,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Quais são as opções para criar um ticket de suporte com rastreio?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Como posso saber se o meu ticket de suporte foi resolvido?,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Preciso criar um ticket de suporte para o meu problema de compatibilidade.,create_software_ticket,desenvolvimento_de_software,Cria um ticket para suporte de software.,facil
+Quais são as manchetes de notícias do dia?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Preciso saber as últimas notícias do mundo.,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Como posso saber as notícias mais importantes do giorno?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Quais são as opções para ler notícias por categoria?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Preciso saber as notícias de negócios do dia.,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Quais são as opções para ler notícias por região?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Como posso saber as notícias de esportes do dia?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Preciso saber as notícias de política do dia.,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Quais são as opções para ler notícias por linguagem?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Como posso saber as notícias de entretenimento do dia?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Preciso saber as notícias de tecnologia do dia.,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Quais são as opções para ler notícias por fonte?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Como posso saber as notícias de ciência do dia?,get_news_headlines,noticias,Retorna manchetes de notícias.,facil
+Preciso enviar uma mensagem de texto para o meu amigo.,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Quais são as opções para enviar mensagens de texto?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Como posso criar uma mensagem de texto com um link?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Preciso enviar uma mensagem de texto para um grupo de pessoas.,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Quais são as opções para enviar mensagens de texto com anexos?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Como posso saber se a mensagem de texto foi entregue?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Preciso enviar uma mensagem de texto para um número internacional.,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Quais são as opções para enviar mensagens de texto com voz?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Como posso saber se a mensagem de texto foi lida?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Preciso enviar uma mensagem de texto para um contato específico.,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Quais são as opções para enviar mensagens de texto com fotos?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Como posso saber se a mensagem de texto foi enviada com sucesso?,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Preciso enviar uma mensagem de texto para um grupo de contatos.,send_sms,comunicacao,Envia uma mensagem de texto para um número específico.,facil
+Quais são os produtos mais populares na loja?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Preciso saber quais são os produtos mais vendidos na categoria.,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Como posso saber quais são os produtos mais adequados para o meu perfil?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Quais são as opções para saber quais são os produtos mais baratos?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Preciso saber quais são os produtos mais lucrativos da loja.,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Quais são as opções para saber quais são os produtos mais em estoque?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Como posso saber quais são os produtos mais adequados para a minha necessidade?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Preciso saber quais são os produtos mais novos da loja.,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Quais são as opções para saber quais são os produtos mais antigos da loja?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Como posso saber quais são os produtos mais em promoção?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Preciso saber quais são os produtos mais comprados juntos.,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Quais são as opções para saber quais são os produtos mais avaliados?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Como posso saber quais são os produtos mais recomendados para mim?,get_product_recommendations,ecommerce,Retorna recomendações de produtos.,facil
+Preciso rastrear o meu progresso de treino.,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Quais são as opções para rastrear o meu progresso de treino?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Como posso criar um plano de treino personalizado?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Preciso saber como está o meu progresso de treino em relação às minhas metas.,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Quais são as opções para rastrear o meu progresso de treino com um dispositivo?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Como posso saber se estou fazendo progresso no meu treino?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Preciso saber como está o meu progresso de treino em relação ao meu histórico.,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Quais são as opções para rastrear o meu progresso de treino com um aplicativo?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Como posso saber se estou fazendo o suficiente para alcançar as minhas metas?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Preciso saber como está o meu progresso de treino em relação ao meu objetivo.,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Quais são as opções para rastrear o meu progresso de treino com um treinador?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Como posso saber se estou fazendo progresso no meu treino em relação à minha saúde?,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Preciso saber como está o meu progresso de treino em relação ao meu desempenho.,track_workout_progress,fitness,Registra o progresso de treinos físicos.,dificil
+Quais são os eventos do calendário para o mês?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Preciso saber os eventos do calendário para a semana.,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Como posso criar um evento no calendário?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Quais são as opções para compartilhar o calendário com os outros?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Preciso saber os eventos do calendário para o dia.,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Quais são as opções para criar um lembrete para um evento?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Como posso saber se há conflitos de horários nos eventos?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Preciso saber os eventos do calendário para o ano.,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Quais são as opções para criar um evento recorrente?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Como posso saber se os eventos estão atualizados?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Preciso saber os eventos do calendário para um período de tempo específico.,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Quais são as opções para criar um evento com convidados?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Como posso saber se os eventos estão sincronizados com outros dispositivos?,get_calendar_events,agenda,Retorna eventos do calendário.,dificil
+Preciso enviar um fax para um número específico.,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Quais são as opções para enviar faxes?,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Como posso criar um fax com um documento?,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Preciso enviar um fax para um número internacional.,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Quais são as opções para enviar faxes com anexos?,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Como posso saber se o fax foi entregue?,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Preciso enviar um fax para um contato específico.,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Quais são as opções para enviar faxes com voz?,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Como posso saber se o fax foi lido?,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Preciso enviar um fax para um grupo de contatos.,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Quais são as opções para enviar faxes com fotos?,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Como posso saber se o fax foi enviado com sucesso?,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Preciso enviar um fax para um número de fax específico.,send_fax,comunicacao,Envia um fax para um número específico.,facil
+Quais são as avaliações dos produtos mais populares?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Preciso saber as avaliações dos produtos mais vendidos.,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Como posso saber as avaliações dos produtos mais adequados para o meu perfil?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Quais são as opções para saber as avaliações dos produtos mais baratos?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Preciso saber as avaliações dos produtos mais lucrativos da loja.,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Quais são as opções para saber as avaliações dos produtos mais em estoque?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Como posso saber as avaliações dos produtos mais adequados para a minha necessidade?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Preciso saber as avaliações dos produtos mais novos da loja.,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Quais são as opções para saber as avaliações dos produtos mais antigos da loja?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Como posso saber as avaliações dos produtos mais em promoção?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Preciso saber as avaliações dos produtos mais comprados juntos.,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Quais são as opções para saber as avaliações dos produtos mais avaliados?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Como posso saber as avaliações dos produtos mais recomendados para mim?,get_product_reviews,ecommerce,Retorna avaliações de produtos.,facil
+Preciso rastrear o meu padrão de sono.,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Quais são as opções para rastrear o meu padrão de sono?,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Como posso criar um relatório de sono?,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Preciso saber como está o meu padrão de sono em relação às minhas metas.,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Quais são as opções para rastrear o meu padrão de sono com um dispositivo?,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Como posso saber se estou dormindo o suficiente?,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Preciso saber como está o meu padrão de sono em relação ao meu histórico.,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Quais são as opções para rastrear o meu padrão de sono com um aplicativo?,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Como posso saber se estou tendo problemas de sono?,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Preciso saber como está o meu padrão de sono em relação ao meu objetivo.,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Quais são as opções para rastrear o meu padrão de sono com um treinador?,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Como posso saber se estou fazendo progresso no meu padrão de sono?,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Preciso saber como está o meu padrão de sono em relação ao meu desempenho.,track_sleep_pattern,saude,Registra padrões de sono.,facil
+Preciso controlar a segurança da minha casa.,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Quais são as opções para controlar a segurança da casa?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Como posso criar um sistema de segurança para a minha casa?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Preciso saber como está a segurança da minha casa em relação às minhas metas.,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Quais são as opções para controlar a segurança da casa com um dispositivo?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Como posso saber se a segurança da casa está ativada?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Preciso saber como está a segurança da casa em relação ao meu histórico.,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Quais são as opções para controlar a segurança da casa com um aplicativo?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Como posso saber se a segurança da casa está desativada?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Preciso saber como está a segurança da casa em relação ao meu objetivo.,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Quais são as opções para controlar a segurança da casa com um treinador?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Como posso saber se a segurança da casa está funcionando corretamente?,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Preciso saber como está a segurança da casa em relação ao meu desempenho.,control_home_security,seguranca,Controla o sistema de segurança da casa.,facil
+Quais são os alertas de trânsito para o meu destino?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Preciso saber os alertas de trânsito para a minha rota.,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Como posso criar um plano de viagem com alertas de trânsito?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Quais são as opções para saber os alertas de trânsito em tempo real?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Preciso saber os alertas de trânsito para a minha área.,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Quais são as opções para receber alertas de trânsito por e-mail?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Como posso saber se há alertas de trânsito para a minha rota?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Preciso saber os alertas de trânsito para o meu período de viagem.,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Quais são as opções para saber os alertas de trânsito com antecedência?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Como posso saber se os alertas de trânsito estão atualizados?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Preciso saber os alertas de trânsito para a minha rota de volta.,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Quais são as opções para saber os alertas de trânsito com detalhes?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Como posso saber se os alertas de trânsito estão disponíveis para a minha área?,get_traffic_warnings,transito,Retorna alertas de trânsito.,facil
+Quais são os alertas meteorológicos para a minha área?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Preciso saber os alertas meteorológicos para o meu destino.,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Como posso criar um plano de viagem com alertas meteorológicos?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Quais são as opções para saber os alertas meteorológicos em tempo real?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Preciso saber os alertas meteorológicos para a minha rota.,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Quais são as opções para receber alertas meteorológicos por e-mail?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Como posso saber se há alertas meteorológicos para a minha área?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Preciso saber os alertas meteorológicos para o meu período de viagem.,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Quais são as opções para saber os alertas meteorológicos com antecedência?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Como posso saber se os alertas meteorológicos estão atualizados?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Preciso saber os alertas meteorológicos para a minha rota de volta.,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Quais são as opções para saber os alertas meteorológicos com detalhes?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Como posso saber se os alertas meteorológicos estão disponíveis para a minha área?,get_weather_alerts,clima,Retorna alertas meteorológicos.,facil
+Preciso criar um portfólio de investimentos.,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Quais são as opções para criar um portfólio de investimentos?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Como posso criar um plano de investimento personalizado?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Preciso saber como está o meu portfólio de investimentos em relação às minhas metas.,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Quais são as opções para criar um portfólio de investimentos com ações?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Como posso saber se o meu portfólio de investimentos está diversificado?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Preciso saber como está o meu portfólio de investimentos em relação ao meu histórico.,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Quais são as opções para criar um portfólio de investimentos com títulos?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Como posso saber se o meu portfólio de investimentos está rentável?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Preciso saber como está o meu portfólio de investimentos em relação ao meu objetivo.,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Quais são as opções para criar um portfólio de investimentos com fundos?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Como posso saber se o meu portfólio de investimentos está seguro?,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Preciso saber como está o meu portfólio de investimentos em relação ao meu desempenho.,create_investment_portfolio,financas,Cria um portfólio de investimentos.,dificil
+Quais são os status dos voos para o meu destino?,get_flight_status,viagens,Retorna o status de um voo.,facil
+Preciso saber o status do voo para a minha rota.,get_flight_status,viagens,Retorna o status de um voo.,facil
+Como posso criar um plano de viagem com status de voos?,get_flight_status,viagens,Retorna o status de um voo.,facil
+Quais são as opções para saber os status de voos em tempo real?,get_flight_status,viagens,Retorna o status de um voo.,facil
+Preciso saber o status do voo para a minha área.,get_flight_status,viagens,Retorna o status de um voo.,facil
+Quais são as opções para receber status de voos por e-mail?,get_flight_status,viagens,Retorna o status de um voo.,facil
+Como posso saber se há status de voos para a minha rota?,get_flight_status,viagens,Retorna o status de um voo.,facil
+Preciso saber o status do voo para o meu período de viagem.,get_flight_status,viagens,Retorna o status de um voo.,facil
+Quais são as opções para saber os status de voos com antecedência?,get_flight_status,viagens,Retorna o status de um voo.,facil
+Como posso saber se os status de voos estão atualizados?,get_flight_status,viagens,Retorna o status de um voo.,facil
+Preciso saber o status do voo para a minha rota de volta.,get_flight_status,viagens,Retorna o status de um voo.,facil
+Quais são as opções para saber os status de voos com detalhes?,get_flight_status,viagens,Retorna o status de um voo.,facil
+Como posso saber se os status de voos estão disponíveis para a minha área?,get_flight_status,viagens,Retorna o status de um voo.,facil
+Preciso rastrear as minhas consultas médicas.,track_medical_appointments,saude,Registra consultas médicas.,facil
+Quais são as opções para rastrear as consultas médicas?,track_medical_appointments,saude,Registra consultas médicas.,facil
+Como posso criar um plano de tratamento personalizado?,track_medical_appointments,saude,Registra consultas médicas.,facil
+Preciso saber como estão as minhas consultas médicas em relação às minhas metas.,track_medical_appointments,saude,Registra consultas médicas.,facil
+Quais são as opções para rastrear as consultas médicas com um dispositivo?,track_medical_appointments,saude,Registra consultas médicas.,facil
+Como posso saber se estou fazendo progresso nas minhas consultas médicas?,track_medical_appointments,saude,Registra consultas médicas.,facil
+Preciso saber como estão as minhas consultas médicas em relação ao meu histórico.,track_medical_appointments,saude,Registra consultas médicas.,facil
+Quais são as opções para rastrear as consultas médicas com um aplicativo?,track_medical_appointments,saude,Registra consultas médicas.,facil
+Como posso saber se estou fazendo o suficiente para alcançar as minhas metas de saúde?,track_medical_appointments,saude,Registra consultas médicas.,facil
+Preciso saber como estão as minhas consultas médicas em relação ao meu objetivo.,track_medical_appointments,saude,Registra consultas médicas.,facil
+Quais são as opções para rastrear as consultas médicas com um treinador?,track_medical_appointments,saude,Registra consultas médicas.,facil
+Como posso saber se estou fazendo progresso nas minhas consultas médicas em relação à minha saúde?,track_medical_appointments,saude,Registra consultas médicas.,facil
+Preciso saber como estão as minhas consultas médicas em relação ao meu desempenho.,track_medical_appointments,saude,Registra consultas médicas.,facil
+Preciso controlar a automação da minha casa.,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Quais são as opções para controlar a automação da casa?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Como posso criar um sistema de automação para a minha casa?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Preciso saber como está a automação da minha casa em relação às minhas metas.,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Quais são as opções para controlar a automação da casa com um dispositivo?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Como posso saber se a automação da casa está ativada?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Preciso saber como está a automação da minha casa em relação ao meu histórico.,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Quais são as opções para controlar a automação da casa com um aplicativo?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Como posso saber se a automação da casa está desativada?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Preciso saber como está a automação da minha casa em relação ao meu objetivo.,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Quais são as opções para controlar a automação da casa com um treinador?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Como posso saber se a automação da casa está funcionando corretamente?,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Preciso saber como está a automação da minha casa em relação ao meu desempenho.,control_home_automation,casa_inteligente,Controla a automação da casa.,dificil
+Quais são as análises dos dados para o meu negócio?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Preciso saber as análises dos dados para a minha área.,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Como posso criar um relatório de análise de dados?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Quais são as opções para saber as análises dos dados em tempo real?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Preciso saber as análises dos dados para a minha rota.,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Quais são as opções para receber análises de dados por e-mail?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Como posso saber se há análises de dados para a minha rota?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Preciso saber as análises dos dados para o meu período de viagem.,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Quais são as opções para saber as análises dos dados com antecedência?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Como posso saber se as análises de dados estão atualizadas?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Preciso saber as análises dos dados para a minha rota de volta.,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Quais são as opções para saber as análises dos dados com detalhes?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
+Como posso saber se as análises de dados estão disponíveis para a minha área?,get_data_insights,analise_de_dados,Retorna insights sobre um conjunto de dados.,dificil
