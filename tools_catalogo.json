@@ -1,0 +1,512 @@
+[
+  {
+    "nome": "schedule_meeting",
+    "tipo": "agenda",
+    "descricao": "Agenda uma reunião com os participantes especificados.",
+    "parametros": [
+      {
+        "nome": "title",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "date",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "participants",
+        "tipo": "array",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "get_stock_price",
+    "tipo": "financas",
+    "descricao": "Retorna o preço atual de uma ação específica.",
+    "parametros": [
+      {
+        "nome": "symbol",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "send_email",
+    "tipo": "comunicacao",
+    "descricao": "Envia um e-mail para o destinatário especificado.",
+    "parametros": [
+      {
+        "nome": "to",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "subject",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "body",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "track_package",
+    "tipo": "ecommerce",
+    "descricao": "Rastreia o status de entrega de um pacote.",
+    "parametros": [
+      {
+        "nome": "tracking_number",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "create_task",
+    "tipo": "produtividade",
+    "descricao": "Cria uma nova tarefa com os detalhes especificados.",
+    "parametros": [
+      {
+        "nome": "title",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "description",
+        "tipo": "string",
+        "obrigatorio": false
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "get_weather_forecast",
+    "tipo": "clima",
+    "descricao": "Retorna a previsão do tempo para uma localização específica.",
+    "parametros": [
+      {
+        "nome": "city",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "days",
+        "tipo": "integer",
+        "obrigatorio": false
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "book_flight",
+    "tipo": "viagens",
+    "descricao": "Reserva um voo com as opções especificadas.",
+    "parametros": [
+      {
+        "nome": "origin",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "destination",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "departure_date",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "analyze_data",
+    "tipo": "analise_de_dados",
+    "descricao": "Analisa um conjunto de dados e retorna estatísticas.",
+    "parametros": [
+      {
+        "nome": "data",
+        "tipo": "array",
+        "obrigatorio": true
+      },
+      {
+        "nome": "metrics",
+        "tipo": "array",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "control_smart_home",
+    "tipo": "casa_inteligente",
+    "descricao": "Controla dispositivos de uma casa inteligente.",
+    "parametros": [
+      {
+        "nome": "device",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "action",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "generate_report",
+    "tipo": "produtividade",
+    "descricao": "Gera um relatório com base nos dados especificados.",
+    "parametros": [
+      {
+        "nome": "data",
+        "tipo": "array",
+        "obrigatorio": true
+      },
+      {
+        "nome": "format",
+        "tipo": "string",
+        "obrigatorio": false
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "get_user_info",
+    "tipo": "comunicacao",
+    "descricao": "Retorna informações de um usuário específico.",
+    "parametros": [
+      {
+        "nome": "user_id",
+        "tipo": "integer",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "create_software_project",
+    "tipo": "desenvolvimento_de_software",
+    "descricao": "Cria um novo projeto de software com os detalhes especificados.",
+    "parametros": [
+      {
+        "nome": "name",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "description",
+        "tipo": "string",
+        "obrigatorio": false
+      },
+      {
+        "nome": "technologies",
+        "tipo": "array",
+        "obrigatorio": false
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "manage_finances",
+    "tipo": "financas",
+    "descricao": "Gerencia as finanças pessoais com base nos gastos e receitas.",
+    "parametros": [
+      {
+        "nome": "income",
+        "tipo": "number",
+        "obrigatorio": true
+      },
+      {
+        "nome": "expenses",
+        "tipo": "array",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "track_workout",
+    "tipo": "saude",
+    "descricao": "Rastreia as atividades físicas realizadas.",
+    "parametros": [
+      {
+        "nome": "exercise",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "duration",
+        "tipo": "integer",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "send_sms",
+    "tipo": "comunicacao",
+    "descricao": "Envia uma mensagem de texto para o número especificado.",
+    "parametros": [
+      {
+        "nome": "number",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "message",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "get_traffic_info",
+    "tipo": "viagens",
+    "descricao": "Retorna informações de trânsito para uma rota específica.",
+    "parametros": [
+      {
+        "nome": "origin",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "destination",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "create_medical_record",
+    "tipo": "saude",
+    "descricao": "Cria um novo registro médico com as informações especificadas.",
+    "parametros": [
+      {
+        "nome": "patient_name",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "medical_history",
+        "tipo": "string",
+        "obrigatorio": false
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "control_thermostat",
+    "tipo": "casa_inteligente",
+    "descricao": "Controla a temperatura de um termostato.",
+    "parametros": [
+      {
+        "nome": "temperature",
+        "tipo": "number",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "generate_invoice",
+    "tipo": "ecommerce",
+    "descricao": "Gera uma fatura com base nos itens comprados.",
+    "parametros": [
+      {
+        "nome": "items",
+        "tipo": "array",
+        "obrigatorio": true
+      },
+      {
+        "nome": "customer_info",
+        "tipo": "object",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "get_news_feed",
+    "tipo": "comunicacao",
+    "descricao": "Retorna as notícias mais recentes de uma fonte específica.",
+    "parametros": [
+      {
+        "nome": "source",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "create_budget",
+    "tipo": "financas",
+    "descricao": "Cria um orçamento com base nas receitas e despesas.",
+    "parametros": [
+      {
+        "nome": "income",
+        "tipo": "number",
+        "obrigatorio": true
+      },
+      {
+        "nome": "expenses",
+        "tipo": "array",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "track_package_delivery",
+    "tipo": "ecommerce",
+    "descricao": "Rastreia a entrega de um pacote.",
+    "parametros": [
+      {
+        "nome": "tracking_number",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "manage_calendar",
+    "tipo": "agenda",
+    "descricao": "Gerencia eventos e compromissos no calendário.",
+    "parametros": [
+      {
+        "nome": "events",
+        "tipo": "array",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "get_weather_alerts",
+    "tipo": "clima",
+    "descricao": "Retorna alertas de condições climáticas adversas.",
+    "parametros": [
+      {
+        "nome": "location",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "create_software_issue",
+    "tipo": "desenvolvimento_de_software",
+    "descricao": "Cria um novo problema de software com os detalhes especificados.",
+    "parametros": [
+      {
+        "nome": "title",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "description",
+        "tipo": "string",
+        "obrigatorio": false
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "track_work_hours",
+    "tipo": "produtividade",
+    "descricao": "Rastreia as horas trabalhadas em um projeto.",
+    "parametros": [
+      {
+        "nome": "project_name",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "hours_worked",
+        "tipo": "number",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "manage_financial_goals",
+    "tipo": "financas",
+    "descricao": "Gerencia metas financeiras com base nas economias e investimentos.",
+    "parametros": [
+      {
+        "nome": "goals",
+        "tipo": "array",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "dificil"
+  },
+  {
+    "nome": "create_shopping_list",
+    "tipo": "produtividade",
+    "descricao": "Cria uma lista de compras com os itens especificados.",
+    "parametros": [
+      {
+        "nome": "items",
+        "tipo": "array",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "get_public_health_info",
+    "tipo": "saude",
+    "descricao": "Retorna informações de saúde pública para uma região específica.",
+    "parametros": [
+      {
+        "nome": "region",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "facil"
+  },
+  {
+    "nome": "book_hotel",
+    "tipo": "viagens",
+    "descricao": "Reserva um quarto de hotel com as opções especificadas.",
+    "parametros": [
+      {
+        "nome": "hotel_name",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "check_in",
+        "tipo": "string",
+        "obrigatorio": true
+      },
+      {
+        "nome": "check_out",
+        "tipo": "string",
+        "obrigatorio": true
+      }
+    ],
+    "dificuldade": "dificil"
+  }
+]
