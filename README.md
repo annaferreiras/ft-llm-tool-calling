@@ -119,7 +119,7 @@ resultados/
 ```
 ---
 
-## Caveats
+## Notes
 
 The data is **synthetic** and the 30 tools are **fictional**; none corresponds to a real
 API. The resulting model is for study, not for production.
