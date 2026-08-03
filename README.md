@@ -36,6 +36,8 @@ The notebooks are numbered in execution order.
 | 2 | `2_gerar_traces.ipynb` | catalog + queries | `dados/traces_progresso.json` |
 | 3 | `3_preparar_dados.ipynb` | traces + queries | `dados/treino.jsonl`, `dados/validacao.jsonl`, `dados/teste.jsonl` |
 | 4 | `4_treinamento_colab.ipynb` | the three `.jsonl` files | the LoRA adapter + `resultados/saidas_*.json` |
+| 5 | `5_avaliacao.ipynb` | `resultados/saidas_*.json`, `dados/teste.jsonl` | evaluation metrics, optional W&B log |
+| 6 | `6_testes_generalizacao.ipynb` | n/a (loads the model from Hugging Face) | exploratory results (discussed in the Medium article) |
 
 **Step 1. Generate queries.** `llama-3.3-70b-versatile`, via Groq, generated 30 fictional
 tools (name, description, parameters) and 518 user questions, classified as `facil`,
@@ -45,9 +47,8 @@ any tool; without them the model would learn to always call one.
 **Step 2. Generate traces.** For each query, an LLM produces the full conversation: the
 tool call, the simulated API return, and the final answer to the user. `qwen/qwen3.6-27b`
 wrote the traces that use a tool, and `llama-3.3-70b-versatile` wrote the answers for the
-`sem_tool` cases. Progress is saved in a dictionary indexed by row, so you can stop and
-resume when the API quota runs out. Result: **484 traces** out of 518 queries, covering
-all 30 tools.
+`sem_tool` cases. Progress is saved in a dictionary indexed by row, so the run can be stopped
+and resumed at any point. Result: **484 traces** out of 518 queries, covering all 30 tools.
 
 **Step 3. Prepare the data.** Wraps each turn in the protocol tags, appends the
 instruction block to the system prompt, and splits into train/validation/test in a
@@ -57,6 +58,14 @@ stratified way (80/10/10, preserving the proportion of the three categories).
 
 **Step 5. Evaluate.** Compares the fine-tuned model against the base model on the 51 test
 traces, plus two experiments that probe for dataset leakage.
+
+**Step 6. Test generalization.** Loads the published model directly from Hugging Face and
+probes it with questions and tools outside the training distribution: novel phrasing,
+a tool description format never seen in training (numbered steps, like an agent skill),
+tasks that require recognizing a dependency between two calls before either is made, and
+a direct comparison against the base model with the adapter disabled
+(`model.disable_adapter()`). Doesn't touch the formal test set from step 5; it's a
+separate, smaller probe meant to stress-test the limitations already found there.
 
 ```
 484   finished traces
@@ -104,6 +113,8 @@ exception, were it missing here, would become an unhandled case in the parser.
 2_gerar_traces.ipynb           step 2, local; uses the Groq API
 3_preparar_dados.ipynb         step 3, local
 4_treinamento_colab.ipynb      step 4, copy of the Colab notebook (needs a GPU)
+5_avaliacao.ipynb              step 5, local
+6_testes_generalizacao.ipynb   step 6, needs a GPU; loads the model from Hugging Face
 
 dados/
   tools_catalogo.json          30 fictional tools
