@@ -37,15 +37,17 @@ The notebooks are numbered in execution order.
 | 3 | `3_preparar_dados.ipynb` | traces + queries | `dados/treino.jsonl`, `dados/validacao.jsonl`, `dados/teste.jsonl` |
 | 4 | `4_treinamento_colab.ipynb` | the three `.jsonl` files | the LoRA adapter + `resultados/saidas_*.json` |
 
-**Step 1. Generate queries.** The Qwen and Llama models were used, via Groq, to generate
-30 fictional tools (name, description, parameters) and 518 user questions, classified as
-`facil`, `dificil` and `sem_tool`. The `sem_tool` ones are questions that should **not**
-trigger any tool; without them the model would learn to always call one.
+**Step 1. Generate queries.** `llama-3.3-70b-versatile`, via Groq, generated 30 fictional
+tools (name, description, parameters) and 518 user questions, classified as `facil`,
+`dificil` and `sem_tool`. The `sem_tool` ones are questions that should **not** trigger
+any tool; without them the model would learn to always call one.
 
-**Step 2. Generate traces.** For each query, the LLM produces the full conversation: the
-tool call, the simulated API return, and the final answer to the user. Progress is saved
-in a dictionary indexed by row, so you can stop and resume when the API quota runs out.
-Result: **484 traces** out of 518 queries, covering all 30 tools.
+**Step 2. Generate traces.** For each query, an LLM produces the full conversation: the
+tool call, the simulated API return, and the final answer to the user. `qwen/qwen3.6-27b`
+wrote the traces that use a tool, and `llama-3.3-70b-versatile` wrote the answers for the
+`sem_tool` cases. Progress is saved in a dictionary indexed by row, so you can stop and
+resume when the API quota runs out. Result: **484 traces** out of 518 queries, covering
+all 30 tools.
 
 **Step 3. Prepare the data.** Wraps each turn in the protocol tags, appends the
 instruction block to the system prompt, and splits into train/validation/test in a
